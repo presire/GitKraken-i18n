@@ -8,7 +8,6 @@
     "AboutProduct": "GitKraken Desktop について",
     "VersionNumber": "バージョン <%= version %> (<%= arch %> <%= bitness %>ビット)",
     "ViewReleaseNotes": "リリースノートを表示",
-    "InstallGitKrakenCli": "GitKraken CLI をインストール",
 
     "CheckingForUpdates": "アップデートを確認中...",
     "RestartAndInstallUpdate": "再起動してアップデートをインストール",
@@ -136,6 +135,15 @@
     "About-Company": "Axosoft, LLC DBA GitKraken",
     "About-AllRightsReserved": "All rights reserved.",
     "About-Version": "GitKraken Desktop バージョン {0}",
+
+    "AgentStatus-ProviderHooksAddedTitle": "{0} フックを追加しました",
+    "AgentStatus-ProviderHooksAddedBody1": "GitKraken Desktop の新しいエージェントセッションビューでエージェントを確認・管理できるよう、{0} がエージェントの状態を GitKraken Desktop に送信するように設定しました。",
+    "AgentStatus-ProviderHooksAddedBody2": "これらのフックのインストールは {0} から管理できます",
+    "AgentStatus-ProviderHooksAddedBreadcrumb": "環境設定 > 外部ツール",
+    "AgentStatus-HooksInstalledToastTitle": "{0} のフックをインストールしました",
+    "AgentStatus-HooksUninstalledToastTitle": "{0} のフックをアンインストールしました",
+    "AgentStatus-InstallHooksFailedToastTitle": "{0} のフックのインストールに失敗しました",
+    "AgentStatus-UninstallHooksFailedToastTitle": "{0} のフックのアンインストールに失敗しました",
 
     "AgentsPreferences-Label": "エージェント",
     "AgentsPreferences-SetupCommands-Label": "セットアップコマンド",
@@ -654,6 +662,7 @@
     "LeftPanel-WorkflowView": "エージェント",
     "AgentWorkflow-AgentStatusAwaitingApproval": "承認待ち",
     "AgentWorkflow-AgentStatusError": "エラー",
+    "AgentWorkflow-AgentStatusRunning": "実行中",
     "AgentWorkflow-AgentStatusNeedsResponse": "応答が必要",
     "AgentWorkflow-AgentStatusThinking": "思考中",
     "AgentWorkflow-AgentStatusUsingTool": "ツールを使用中",
@@ -1982,6 +1991,11 @@
 
     "ToolPreferences-CodingAgentSubHeader": "コーディング エージェント",
     "ToolPreferences-CodingAgent": "コーディング エージェント",
+    "ToolPreferences-ClaudeCodeHooks": "Claude Code フック",
+    "ToolPreferences-ClaudeCodeHooks-HelpText": "エージェントのライブステータスを GitKraken に送信し、エージェントセッションビューに表示します",
+    "ToolPreferences-ClaudeCodeHooks-InstallButton": "フックをインストール",
+    "ToolPreferences-ClaudeCodeHooks-ReinstallButton": "フックを再インストール",
+    "ToolPreferences-ClaudeCodeHooks-UninstallButton": "フックをアンインストール",
 
     "Preferences-DisabledByOrgLabel": "この機能は組織によって無効化されています。",
     "Preferences-Preferences": "環境設定",
@@ -2123,6 +2137,8 @@
     "OnboardingTutorial-Tip-NotForYou": "お好みでない場合は？{0}",
     "OnboardingTutorial-Tip-TurnOffAi": "AI をオフにする",
 
+    "Annotation-GitKrakenReview-Title": "GitKraken Code Review がプレビュー版で利用可能になりました！",
+    "Annotation-GitKrakenReview-Description": "より見やすい差分、AI による提案、統合チャットで PR をすばやくレビューできます。GitHub と同じように承認やコメントが可能です。",
     "Annotation-PinnedBranch-Name": "ブランチ を左に固定",
     "Annotation-PinnedBranch-Description": "任意のローカル ブランチ を右クリックして「左に固定」を選択すると、グラフの左端の列に固定されます。",
 
@@ -2814,6 +2830,9 @@
 
     "PromptForRemoveWorktree-RemoveWorktreeRequiresForce": "このワークツリーを削除するには強制が必要であり、破壊的で元に戻せません。削除を完了しますか？",
 
+    "PromptForRemoveWorktreeAndDeleteBranch-Confirm": "削除して破棄",
+    "PromptForRemoveWorktreeAndDeleteBranch-Message": "'{0}' のワークツリーを完全に削除し、ローカルブランチ '{1}' を削除します。この操作は元に戻せません。",
+
     "PromptForTagAnnotation-Message": "メッセージ:",
     "PromptForTagAnnotation-Placeholder": "注釈メッセージ",
 
@@ -3474,7 +3493,9 @@
     "Error-RenameFailed": "名前の変更に失敗しました",
     "Error-RenameNeedsLocalBranch": "ローカルブランチをチェックアウトする必要があります！",
     "Error-RemoveFailed": "ファイルの削除に失敗しました",
+    "Error-DeleteBranchAfterWorktreeRemovalFailed": "ワークツリーは削除されましたが、ブランチ {0} の削除に失敗しました",
     "Error-RemoveWorktreeFailed": "ワークツリーの削除に失敗しました",
+    "Error-SwitchToMainWorktreeFailed": "メインのワークツリーへの切り替えに失敗しました",
     "Error-ResetFailed": "resetに失敗しました",
     "Error-ResetSubmodulesFailedSummarySingular": "{0}個のsubmoduleのresetに失敗しました：{1}{2}",
     "Error-ResetSubmodulesFailedSummaryPlural": "{0}個のsubmoduleのresetに失敗しました：{1}{2}",
@@ -3864,6 +3885,7 @@
     "PullRequestView-SubmitReview": "レビューを送信",
     "PullRequestView-ReviewCodeSuggestChanges": "コードをレビューして変更を提案",
     "PullRequestView-ReviewCodeSuggestChangesContextMenu": "コードをレビューして変更を提案",
+    "PullRequestView-ReviewOnGitKrakenDev": "GitKraken.dev でレビュー",
     "PullRequestView-ViewOnlyPermissionMessage": "このプル リクエストを編集する権限がありません。",
     "PullRequestView-WaitingForAReviewFromX": "{0}からのレビューを待っています",
     "PullRequestView-WikiRepoMessage": "wikiリポジトリではプル リクエストはサポートされていません。",
@@ -4225,6 +4247,10 @@
     "TerminalContextMenu-DeleteLine": "行を削除",
     "TerminalContextMenu-Clear": "クリア",
     "TerminalContextMenu-CloseTerminal": "ターミナルを閉じる",
+    "TerminalToolbar-Expand": "ターミナルを拡大",
+    "TerminalToolbar-HideTerminal": "ターミナルを非表示",
+    "TerminalToolbar-KillTerminal": "ターミナルを終了",
+    "TerminalToolbar-Minimize": "ターミナルを最小化",
 
     "Workspace": "Workspace",
     "Workspaces": "Workspace",
@@ -5651,6 +5677,7 @@
     "Worktree-OpenInNewTabButtonLabel": "新しいタブで開く",
     "Worktree-FormPrune": "ワークツリーをプルーン",
     "Worktree-FormRemove": "このワークツリーを削除",
+    "Worktree-FormRemoveAndDeleteBranch": "ワークツリーを削除してブランチを破棄",
     "Worktree-FormUnlock": "このワークツリーのロックを解除",
     "Worktree-FormWorkdir": "作業ディレクトリ",
     "Worktree-FormWorktreeBranch": "作成するワークツリーのブランチ",
@@ -5668,9 +5695,10 @@
 
     "AgentWorkflow-NewSession": "新しいエージェントセッション",
     "AgentWorkflow-BranchNamePlaceholder": "ブランチ名",
+    "AgentWorkflow-StartAgentSession": "エージェントセッションを開始",
+    "AgentWorkflow-StartSession": "セッションを開始",
     "AgentWorkflow-Start": "開始",
     "AgentWorkflow-Cancel": "キャンセル",
-    "AgentWorkflow-Options": "オプション",
     "AgentWorkflow-BaseBranch": "ベースブランチ",
     "AgentWorkflow-CodingAgent": "コーディング エージェント",
     "AgentWorkflow-ConfigureSetupCommands": "セットアップコマンドを設定",
