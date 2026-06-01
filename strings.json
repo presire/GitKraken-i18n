@@ -351,8 +351,8 @@
     "Standalone-UpdatedLicenseFailedToUpdate": "選択したライセンスを使用しようとしたときにエラーが発生しました。",
     "Standalone-UpdatedLicenseWasInvalid": "選択したライセンスファイルは無効でした。",
     "Standalone-UpdatedLicenseWasNotFound": "選択したライセンスファイルが見つかりませんでした。",
-    "Standalone-BadSelectedLicense": "ライセンスの更新に失敗",
-    "Standalone-LicenseSuccessfullyUpdated": "ライセンスが正常に更新されました",
+    "Standalone-BadSelectedLicense": "ライセンスの更新に失敗しました。",
+    "Standalone-LicenseSuccessfullyUpdated": "ライセンスが正常に更新されました。",
 
     "AnnotatedTag": "注釈付きタグ",
     "Apply": "適用",
@@ -513,6 +513,7 @@
     "File-Delete": "ファイルを削除",
     "File-Deleted": "「{0}」を削除しました",
     "File-DoesNotExist": "ファイルが存在しません",
+    "File-PathBlockedByDirectory": "ディレクトリによってパスが塞がれているため、ファイルを開けません",
     "File-ConfirmDeletePath": "「{0}」を削除してもよろしいですか？",
     "File-Open": "ファイルを開く",
     "File-Edit": "ファイルを編集",
@@ -2139,8 +2140,6 @@
 
     "Annotation-GitKrakenReview-Title": "GitKraken Code Review がプレビュー版で利用可能になりました！",
     "Annotation-GitKrakenReview-Description": "より見やすい差分、AI による提案、統合チャットで PR をすばやくレビューできます。GitHub と同じように承認やコメントが可能です。",
-    "Annotation-PinnedBranch-Name": "ブランチ を左に固定",
-    "Annotation-PinnedBranch-Description": "任意のローカル ブランチ を右クリックして「左に固定」を選択すると、グラフの左端の列に固定されます。",
 
     "PurchaseReceipt-Updating": "更新中",
     "PurchaseReceipt-Type-Suite": "GitKraken {0} Suite",
@@ -2207,6 +2206,8 @@
     "Services-AddToService": "{0} に追加",
     "Services-BrowseForPublicSSHKey": "{0} SSH キーを参照",
     "Services-BrowseForPrivateSSHKey": "{0} SSH キーを参照",
+    "Services-CloudTokenRemoved-Title": "連携が切断されました",
+    "Services-CloudTokenRemoved-Content": "このプロフィールの 1 つ以上の連携接続が切断されました: {0}",
     "Services-ClearSSHKey": "使用を停止",
     "Services-Connect": "接続",
     "Services-Connected": "接続済み",
@@ -3178,15 +3179,6 @@
 
     "Annotation-toggle-with": "{0}で切り替え",
     "Annotation-got-it": "了解",
-    "Annotation-SmartBranchVisibility-Title": "新機能：スマートbranch表示",
-    "Annotation-SmartBranchVisibility-Description": "「スマートbranch表示」を有効にすると、現在の作業を常に前面に表示できます。現在チェックアウト中のブランチとそのターゲットブランチ、およびそれぞれのアップストリームのみがコミットグラフに表示されます。",
-
-    "Annotation-SmartBranchVisibilityAutoEnabled-Title": "スマートブランチ表示が有効です",
-    "Annotation-SmartBranchVisibilityAutoEnabled-Description1": "このリポジトリにはブランチが多数あるため、「スマートブランチ表示」をオンにして現在の作業を前面に表示しました。",
-    "Annotation-SmartBranchVisibilityAutoEnabled-Description2": "スマートブランチ表示では、現在チェックアウト中のブランチとそのターゲットブランチ、およびそれぞれのアップストリームのみがコミットグラフに表示されます。",
-    "Annotation-SmartBranchVisibilityAutoEnabled-ShowAllBranches": "{0}",
-    "Annotation-SmartBranchVisibilityAutoEnabled-ShowAllBranchesLink": "代わりにすべてのbranchを表示",
-
     "OrganizationMember-Admin": "管理者",
     "OrganizationMember-AlreadyMember": "{0}はすでにこの組織のメンバーです",
     "OrganizationMember-ApproveInvite": "承認",
@@ -3674,6 +3666,7 @@
     "ErrorMessage-UnknownFailure": "不明な障害。",
 
     "ErrorMessage-BlobNotFound": "blobが見つかりません。bloblessクローンを使用しているリポジトリで、ファイルがまだfetchされていない場合に発生することがあります。",
+    "ErrorMessage-PathBlockedByDirectory": "このパスには現在ディレクトリが存在します。リベースまたはマージによってファイル名とディレクトリ名の競合が発生した可能性があります。",
     "ErrorMessage-SparseCheckoutFileNotFound": "ファイルが見つかりません。スパースチェックアウトを使用しているリポジトリで発生することがあります。",
     "ErrorMessage-SparseCheckoutFilesNotFound": "{0}件のファイルが見つかりません。スパースチェックアウトを使用しているリポジトリで発生することがあります。",
 
@@ -5705,6 +5698,21 @@
     "AgentWorkflow-TerminalCommandsFailed": "ターミナルでのコマンドの実行に失敗しました",
     "AgentWorkflow-StartSessionFailed": "エージェントセッションの開始に失敗しました",
     "AgentWorkflow-NoAvailableTabFound": "ワークツリーへの切り替え後に利用可能なタブがありません",
+    "AgentWorkflow-NoFilterResults": "一致するワークツリーはありません",
+    "AgentWorkflow-SortFilterTooltip": "並べ替えとフィルター",
+    "AgentWorkflow-SortSection": "並べ替え",
+    "AgentWorkflow-FilterSection": "フィルター",
+    "AgentWorkflow-SortNone": "なし",
+    "AgentWorkflow-SortAlphabetical": "アルファベット順",
+    "AgentWorkflow-SortStatus": "ステータス",
+    "AgentWorkflow-SortChangeSize": "変更サイズ",
+    "AgentWorkflow-FilterNeedsAttention": "要対応",
+    "AgentWorkflow-FilterHasAgentSessions": "エージェントセッションあり",
+    "AgentWorkflow-FilterHasChanges": "変更あり",
+    "AgentWorkflow-FilterHasPR": "PRあり",
+    "AgentWorkflow-FilterCurrent": "現在",
+    "AgentWorkflow-ClearAll": "すべてクリア",
+    "AgentWorkflow-CloseSortFilter": "閉じる",
 
     "SatisfactionSurvey-Header": "この製品体験にどの程度満足していますか？",
     "SatisfactionSurvey-SubHeader": "あなたのフィードバックがGitKrakenの改善に役立ちます",
