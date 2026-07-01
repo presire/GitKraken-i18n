@@ -2,7 +2,7 @@
 
 GitKraken Desktopの非公式日本語化プロジェクトです。  
 
-**動作確認済み:** GitKraken 12.1.1  
+**動作確認済み:** GitKraken 12.2.1  
 
 > [!NOTE]
 > [megos/gitkraken-i18n](https://github.com/megos/gitkraken-i18n) の翻訳は更新が止まっているため、  
