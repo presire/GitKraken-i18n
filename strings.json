@@ -8,7 +8,6 @@
     "AboutProduct": "GitKraken Desktop について",
     "VersionNumber": "バージョン <%= version %> (<%= arch %> <%= bitness %>ビット)",
     "ViewReleaseNotes": "リリースノートを表示",
-
     "CheckingForUpdates": "アップデートを確認中...",
     "RestartAndInstallUpdate": "再起動してアップデートをインストール",
     "CheckForUpdateWithLastCheckedTime": "アップデートを確認 <%= updateLastCheckedTime %>",
@@ -16,7 +15,6 @@
     "UpdateDownloadedShowFile": "アップデートをダウンロード済み（ファイルを表示）",
     "UpdateErroredAtTime": "アップデートエラー <%= updateErrorTime %>",
     "DownloadingUpdate": "アップデートをダウンロード中...",
-
     "Preferences": "環境設定...",
     "&Preferences": "&環境設定...",
     "Services": "サービス",
@@ -25,7 +23,6 @@
     "ShowAll": "すべてを表示",
     "Quit": "GitKraken Desktop を終了",
     "E&xit": "終了(&X)",
-
     "File": "ファイル",
     "&File": "ファイル(&F)",
     "NewTab": "新しいタブ",
@@ -49,7 +46,6 @@
     "SignIn": "サインイン",
     "SignIntoDifferentAccount": "別のアカウントでサインイン",
     "SignOut": "サインアウト",
-
     "Edit": "編集",
     "&Edit": "編集(&E)",
     "Undo": "元に戻す",
@@ -64,7 +60,6 @@
     "&Paste": "貼り付け(&P)",
     "SelectAll": "すべて選択",
     "Select&All": "すべて選択(&A)",
-
     "View": "表示",
     "&View": "表示(&V)",
     "ReloadWindow": "ウィンドウを再読み込み",
@@ -82,7 +77,6 @@
     "ToggleRequestHandlerDeveloperTools": "リクエストハンドラープロセス開発者ツールの切り替え",
     "ToggleRequestHandlerDeveloper&Tools": "リクエストハンドラープロセス開発者ツールの切り替え(&T)",
     "PrintPerformanceTimingsToTerminal": "パフォーマンスタイミングをターミナルに出力",
-
     "Tabs": "タブ",
     "CloseTab": "タブを閉じる",
     "SelectNextTab": "次のタブを選択",
@@ -97,7 +91,6 @@
     "SelectTab7": "タブ7を選択",
     "SelectTab8": "タブ8を選択",
     "SelectTab9": "タブ9を選択",
-
     "Favorites": "お気に入り",
     "OpenFavorite1": "お気に入りリポジトリ1を開く",
     "OpenFavorite2": "お気に入りリポジトリ2を開く",
@@ -108,23 +101,19 @@
     "OpenFavorite7": "お気に入りリポジトリ7を開く",
     "OpenFavorite8": "お気に入りリポジトリ8を開く",
     "OpenFavorite9": "お気に入りリポジトリ9を開く",
-
     "ZoomIn": "ズームイン",
     "&ZoomIn": "ズームイン(&I)",
     "ZoomOut": "ズームアウト",
     "Zoom&Out": "ズームアウト(&O)",
     "ZoomReset": "ズームをリセット",
     "Zoom&Reset": "ズームをリセット(&R)",
-
     "ShowDetailPanel": "コミット詳細パネルを表示",
     "ShowLeftPanel": "左パネルを表示",
     "ShowToolbar": "ツールバーを表示",
     "ShowTerminalPanel": "ターミナルパネルを表示",
-
     "Window": "ウィンドウ",
     "Minimize": "最小化",
     "Zoom": "ズーム",
-
     "Help": "ヘルプ",
     "&Help": "ヘルプ(&H)",
     "ViewSupportDocs": "サポートドキュメントを表示",
@@ -144,7 +133,6 @@
     "About-Company": "Axosoft, LLC DBA GitKraken",
     "About-AllRightsReserved": "All rights reserved.",
     "About-Version": "GitKraken Desktop バージョン {0}",
-
     "AgentStatus-ProviderIntegrationsAddedTitle": "{0} を追加しました",
     "AgentStatus-ProviderIntegrationsAddedBody1": "GitKraken Desktop の新しいエージェントセッションビューでエージェントを確認・管理できるよう、{0} がエージェントのステータス更新を GitKraken Desktop に送信するように設定しました。",
     "AgentStatus-ProviderIntegrationsAddedBody2": "これらのインテグレーションは {0} から管理できます",
@@ -161,42 +149,29 @@
     "AgentStatus-PluginUninstalledToastTitle": "{0} プラグインをアンインストールしました",
     "AgentStatus-InstallPluginFailedToastTitle": "{0} プラグインのインストールに失敗しました",
     "AgentStatus-UninstallPluginFailedToastTitle": "{0} プラグインのアンインストールに失敗しました",
-
     "AgentsPreferences-Label": "エージェント",
     "AgentsPreferences-SetupCommands-Label": "セットアップコマンド",
     "AgentsPreferences-SetupCommands-Description": "新しいエージェントセッションがワークツリーで開始されたときに順番に実行されるコマンドです。依存関係のインストールや環境の準備に使用します。各コマンドは改行で区切って入力してください。",
     "AgentsPreferences-SetupCommands-PerLine": "（1 行に 1 つ）",
     "AgentsPreferences-SetupCommands-Placeholder": "npm install\npnpm build",
-
     "AgentsPreferences-CliArguments-Description": "セッション開始時にエージェントコマンドへ付加される引数です。",
     "AgentsPreferences-CliArguments-Label": "CLI 引数",
     "AgentsPreferences-ShowWorktreeWipNodes-Label": "グラフにワークツリーの WIP ノードを表示",
     "AgentsPreferences-ShowWorktreeWipNodes-Description": "有効にすると、コミットされていない変更やアクティブなエージェントセッションがあるすべてのワークツリーの WIP 行をグラフに表示します（エージェントのステータスを含む）。",
-
     "Application": "アプリケーション",
-
     "Bytes": "バイト",
-
     "By": "{0} by ",
-
     "NoMatches": "一致なし",
     "NoFilterMatches": "フィルターに一致する結果がありません",
-
     "QuitGitKraken": "GitKraken Desktop を終了",
-
     "Done": "完了",
     "Or": "または",
-
     "OpenInFileManager": "ファイルマネージャーで開く",
-
     "Update": "アップデート",
-
     "SelectAll": "すべて選択",
     "UnSelectAll": "選択を解除",
-
     "GitKrakenDotDev": "GitKraken.dev",
     "DontShowThisAgain": "次回から表示しない",
-
     "Repo-Close": "リポジトリを閉じる",
     "Repo-Delete": "リポジトリを削除",
     "Repo-GitMaintenanceLabel": "GitKraken はパフォーマンス向上のためリポジトリを最適化しています。大きなリポジトリでは数分かかる場合があります。",
@@ -206,9 +181,7 @@
     "Repo-Open": "リポジトリを開く",
     "Repo-OpenInDefaultTerminal": "デフォルトターミナルで開く",
     "Repo-OpenEmbeddedTerminal": "ターミナルパネルを切り替え",
-
     "Prompt-DoNotAskAgain": "次回から確認しない",
-
     "Registration-ChangeEmail": "別のアカウントでサインイン",
     "Registration-CheckStatus": "ステータスを確認",
     "Registration-GetStartedCreateYourAccount": "始めましょう - アカウントを作成",
@@ -342,26 +315,20 @@
     "Registration-SignIn": "サインイン",
     "Registration-SignUp": "サインアップ",
     "Registration-Purchase": "購入",
-
     "Registration-AI-VerifyEmail": "メールを確認",
     "Registration-AI-CheckYourInbox": "確認リンクを受信トレイで確認してください。",
     "Registration-AI-VerifyEmailToStartTrial": "メールを確認して無料 AI トライアルを開始",
-
     "Role-Admin": "管理者",
     "Role-Billing": "請求担当者",
     "Role-Owner": "オーナー",
-
     "SelfHostedConfiguration-Title": "GitKraken セルフホスティングを設定",
     "SelfHostedConfiguration-EnterHostname": "GitKraken Desktop ダウンロードページに記載の URL を貼り付けてください：",
     "SelfHostedConfiguration-CouldNotConnect": "サーバーに接続できませんでした。",
     "SelfHostedConfiguration-CouldNotParseURL": "指定された URL を解析できませんでした。",
-
     "Status-Pending": "保留中",
-
     "LicenseExpirationWarning-NDays": "ライセンスは {0} 日後に期限切れになります",
     "LicenseExpirationWarning-Tomorrow": "ライセンスは 1 日後に期限切れになります！",
     "LicenseExpirationWarning-Today": "ライセンスは本日中に期限切れになります！",
-
     "Standalone-LicenseConfigurationTitle": "サーバーレスライセンス",
     "Standalone-LicenseInfoForActive": "{1} ユーザーのために {0} にライセンス済み",
     "Standalone-LicenseInfoForActiveExpiresSoon": "{1} ユーザーのために {0} にライセンス済み。{2} 日後に期限切れ",
@@ -385,7 +352,6 @@
     "Standalone-UpdatedLicenseWasNotFound": "選択したライセンスファイルが見つかりませんでした。",
     "Standalone-BadSelectedLicense": "ライセンスの更新に失敗しました。",
     "Standalone-LicenseSuccessfullyUpdated": "ライセンスが正常に更新されました。",
-
     "AnnotatedTag": "注釈付きタグ",
     "Apply": "適用",
     "Author": "作者",
@@ -448,8 +414,8 @@
     "Pull": "プル",
     "PullRequest": "プル リクエスト",
     "PullRequests": "プル リクエスト",
-    "PullRequestAllCaps": "PULL REQUEST",
-    "PullRequestsAllCaps": "PULL REQUESTS",
+    "PullRequestAllCaps": "プルリクエスト",
+    "PullRequestsAllCaps": "プルリクエスト",
     "Push": "プッシュ",
     "Redo": "やり直し",
     "Repo": "リポジトリ",
@@ -487,18 +453,15 @@
     "WIPs": "WIPs",
     "WorkInProgressOnBranchAbbr": "{0} での作業中",
     "Zoom": "ズーム",
-
     "License-Community": "Community",
     "License-Education": "Education",
     "License-Pro": "Pro",
     "License-Advanced": "Advanced",
     "License-Business": "Business",
     "License-Enterprise": "Enterprise",
-
     "License-StayOnCommunity": "Community を続ける",
     "License-UpgradeToPro": "Pro にアップグレード",
     "License-UpgradeToAdvanced": "Advanced にアップグレード",
-
     "LicenseBadge-Advanced": "ADVANCED",
     "LicenseBadge-Community": "COMMUNITY",
     "LicenseBadge-Enterprise": "ENTERPRISE",
@@ -508,13 +471,10 @@
     "LicenseBadge-SelfHosted": "SELF-HOSTED",
     "LicenseBadge-Standalone": "SERVERLESS",
     "LicenseBadge-Student": "STUDENT",
-
     "CommunityPlanBadgeTooltip": "オープンソースプロジェクトでの使用にライセンスされています。プランを確認するにはクリックしてください。",
-
     "Stash-ApplyWithUncommittedChangesPrompt": "コミットされていない変更があります。変更の上に スタッシュ を適用してもよろしいですか？",
     "Stash-PartialStashSelectedPath": "「{0}」のすべての staged および unstaged の変更を スタッシュ します。ファイル内のすべての変更を スタッシュ してもよろしいですか？",
     "Stash-PartialStashSelectedPaths": "選択したファイルのすべての staged および unstaged の変更を スタッシュ します。選択したすべてのファイルを スタッシュ してもよろしいですか？",
-
     "StashMessage-Checkout": "「{0}」をチェックアウトする前に自動 スタッシュ",
     "StashMessage-CherryPick": "「{0}」の チェリーピック 前に自動 スタッシュ",
     "StashMessage-Merge": "「{0}」と「{1}」の マージ 前に自動 スタッシュ",
@@ -524,15 +484,12 @@
     "StashMessage-Reset": "リセット 前に自動 スタッシュ",
     "StashMessage-Revert": "「{0}」の リバート 前に自動 スタッシュ",
     "StashMessage-UndoRedo-DiscardAllChanges": "すべての変更の元に戻す操作前に自動 スタッシュ",
-
     "Ignore": "無視",
     "IgnoreFile": "「{0}」を無視",
     "IgnoreNFiles": "{0} 個のファイルを無視",
-
     "AllFilesWithSameExtension": "拡張子「{0}」のすべてのファイル",
     "AllFilesInFolder": "「{0}/」内のすべてのファイル",
     "IgnoreAllFilesInFolder": "「{0}/」内のすべてのファイルを無視",
-
     "File-AlreadyExists": "ファイル「{0}」はすでに存在します",
     "File-Blame": "ファイルの Blame",
     "File-CanOnlyEditText": "編集できるのはテキストファイルのみです",
@@ -567,7 +524,6 @@
     "File-StatusRenamedFrom": "変更前",
     "File-StatusRenamedTo": "変更後",
     "File-UnstageAndRemove": "ステージから外してファイルを削除",
-
     "Folder-CherryPickFromStash": "スタッシュ したフォルダーを適用",
     "Folder-NewFile": "このフォルダーにファイルを作成",
     "Folder-MarkConflictedFilesAsResolved": "すべて解決済みとしてマーク",
@@ -577,7 +533,6 @@
     "Folder-UnstageAll": "フォルダーを アンステージ",
     "Folder-DiscardAllChanges": "フォルダー内のすべての変更を破棄",
     "Folder-ExportChangesToPatch": "ディレクトリの変更から patch を作成",
-
     "FileHistory": "ファイル履歴",
     "FileHistory-AuthorInfo": "{0} が {1} に作成",
     "FileHistory-CannotLinkToGraph": "この コミット はグラフに表示されていません",
@@ -586,7 +541,6 @@
     "FileHistory-BlameButtonLabel": "注釈",
     "FileHistory-ShowBlame": "blame の詳細を表示",
     "FileHistory-UnknownAuthorName": "不明",
-
     "FuzzyFinder-DefaultPlaceHolder": "コマンドやアクションを検索（例：Open Repo）",
     "FuzzyFinder-BlamePlaceholder": "誰が何をしたかを確認するファイルを検索（blame）",
     "FuzzyFinder-CheckoutPlaceholder": "チェックアウト する ブランチ を検索",
@@ -612,7 +566,6 @@
     "FuzzyFinder-SwitchThemePlaceholder": "切り替えるテーマを検索",
     "FuzzyFinder-UnstageAllChanges": "すべての変更を アンステージ",
     "FuzzyFinder-ViewFilePlaceholder": "表示するファイルを検索",
-
     "FuzzyFinder-BlameFilePrefix": "注釈",
     "FuzzyFinder-CheckoutRefPrefix": "チェックアウト",
     "FuzzyFinder-ConfigureGitFlow": "Gitflow を設定",
@@ -656,22 +609,18 @@
     "FuzzyFinder-ViewWorkingDirectoryChangesKeywords": "変更 WIP 作業ディレクトリ",
     "FuzzyFinder-GenerateCommitMessage": "コミット メッセージを生成",
     "FuzzyFinder-GenerateCommitMessageKeywords": "chatgpt openai",
-
     "CommitSearch-ClearFilter": "フィルターをクリア",
     "CommitSearch-Placeholder": "コミット を検索",
     "CommitSearch-ResultsText": "{1} 件中 {0} 件目",
     "CommitSearch-NoResults": "0 件の結果",
     "CommitSearch-NoAuthorsFound": "作成者が見つかりません",
     "CommitSearch-Indexing": "インデックス作成中",
-
     "CommitFilter-FilterPlaceholder": "チームまたは作成者でグラフをフィルター",
     "CommitFilter-AuthorsInOrg": "{0} のメンバー",
     "CommitFilter-AuthorsNotInOrg": "組織に所属していない作成者",
     "CommitFilter-Authors": "作成者",
     "CommitFilter-Teams": "チーム",
-
     "GARLIC-RequestCancelledFromCredentialChange": "リクエストがキャンセルされました。{0} の認証情報が変更されました",
-
     "GitHook-ExitCode": "Git Hook が {0} で終了しました",
     "GitHook-ExitedSuccessfully": "{0}: コード 0 で終了しました",
     "GitHooks-ExitedSuccessfully": "Git Hooks がコード 0 で終了しました: {0}",
@@ -681,7 +630,6 @@
     "GitHook-PrePushDidNotRun": "pre-プッシュ hook が実行されませんでした",
     "GitHook-PrePushDidNotRunReason": "{0} は {1} に存在しません",
     "GitHook-FailedToRun": "Git Hook の実行に失敗しました。",
-
     "LeftPanel-CheckedOut": "チェックアウト済み",
     "LeftPanel-ClearFilter": "フィルターをクリア",
     "LeftPanel-Collapse": "パネルを折りたたむ",
@@ -744,7 +692,6 @@
     "LeftPanelAddUserForkRow-YouHaveAFork": "このリポジトリのフォークがあります",
     "LeftPanelAddUserForkRow-AddRemoteButtonLabel": "追加",
     "LeftPanelAddUserForkRow-AddThisFork": "このフォークをリモートとして追加",
-
     "TextOperation-Cut": "切り取り",
     "TextOperation-Copy": "コピー",
     "TextOperation-CopyFileContentsToClipboard": "ファイルの内容をクリップボードにコピー",
@@ -752,11 +699,9 @@
     "TextOperation-Paste": "貼り付け",
     "TextOperation-Delete": "削除",
     "TextOperation-SelectAll": "すべて選択",
-
     "ResizePanel": "パネルのサイズを変更",
     "Hide": "非表示",
     "Show": "表示",
-
     "FastForwardBranchToBranch": "ブランチ {0} を ブランチ {1} へ ファストフォワード",
     "MergedBranchToRef": "ブランチ '{0}' を {1} へ マージ",
     "MergedRemoteBranchToRef": "リモートトラッキング ブランチ '{0}' を {1} へ マージ",
@@ -789,13 +734,11 @@
     "UnsupportedRebaseMessageNodeGit": "このリポジトリの リベース は外部アプリケーションまたは Git 実行ファイルを使用して開始されました",
     "UnsupportedRebaseMessageGitExecutable": "このリポジトリのインタラクティブ リベース は外部アプリケーションを使用して開始されました",
     "UnknownUnsupportedRebaseMessage": "このリポジトリで開始された リベース はサポートされていません",
-
     "ViewExternalEditorSettings": "外部エディター設定を表示",
     "ViewDiffToolSettings": "diff ツール設定を表示",
     "ViewMergeToolSettings": "マージ ツール設定を表示",
     "ViewShPathSettings": "設定を表示",
     "ViewTerminalSettings": "ターミナル設定を表示",
-
     "AbortMergeButtonLabel": "マージ を中止",
     "AbortRebaseButtonLabel": "リベース を中止",
     "AmendOrRewordPreviousCommitMessageButtonLabel": "メッセージを更新",
@@ -915,12 +858,10 @@
     "YesButtonLabel": "はい",
     "ConfirmButtonLabel": "確認",
     "RemoveButtonLabel": "削除",
-
     "Option-None": "<なし>",
     "Option-Custom": "<カスタム>",
     "Option-UseMergeTool": "<マージ ツールを使用>",
     "Option-BuiltInTerminal": "GitKraken Desktop 統合ターミナル",
-
     "ActivityLogButtonTooltip": "アクティビティログ",
     "UndoValidButtonTooltip": "{0} を元に戻す",
     "RedoValidButtonTooltip": "{0} をやり直す",
@@ -948,12 +889,10 @@
     "InviteButtonTooltip": "GitKraken にコラボレーターを招待",
     "FuzzyFinderButtonTooltip": "コマンドパレット（{0} + P）",
     "KeyBindingsTooltip": "キーボードショートカット（{0} + /）",
-
     "Rebasing-LoadingOverlayLabel": "リベース 中",
     "Rebasing-CommitLabel": "{1} 件中 {0} 件目の コミット を リベース 中",
     "Rebasing-AutoStashLabel": "未 コミット の変更を スタッシュ 中",
     "Rebasing-PoppingAutoStashLabel": "自動 スタッシュ した変更を ポップ 中",
-
     "ReflogAction": "reflog メッセージ「{0}」を伴うアクション",
     "ReflogActionCommit": "コミット「{0}」",
     "ReflogActionCommitAmend": "コミット の修正「{0}」",
@@ -966,10 +905,8 @@
     "ReflogActionDeleteBranchTracking": "「{1}」をトラッキングする ブランチ「{0}」を削除",
     "ReflogActionDeleteBranch": "ブランチ「{0}」を削除",
     "ReflogActionRemoveRemote": "リモート「{0}」を削除",
-
     "ConflictsHeader-Merging": "{0} を {1} へ マージ 中 ",
     "ConflictsHeader-Rebasing": "{0} を {1} へ リベース 中 ",
-
     "ContextMenu-AddToDictionary": "辞書に追加",
     "ContextMenu-AmendOrRewordCommitMessage": "コミット メッセージを編集",
     "ContextMenu-AmendStashMessage": "スタッシュ メッセージを編集",
@@ -1020,6 +957,8 @@
     "ContextMenu-CreateBranchHere": "ここに ブランチ を作成",
     "ContextMenu-CreateTagHere": "ここに タグ を作成",
     "ContextMenu-DeleteLocalAndRemoteBranches": "{0} と {1} を削除",
+    "ContextMenu-RemoveWorktreeAndDeleteLocalAndRemote": "ワークツリーを削除し、{0} と {1} を削除",
+    "ContextMenu-RemoveWorktreeAndDeleteAll": "ワークツリーを削除し、すべての \"{0}\" ブランチ (ローカル && リモート) を削除",
     "ContextMenu-DeleteAll": "すべての「{0}」ブランチ を削除（ローカル && リモート）",
     "ContextMenu-DeleteBranch": "{0} を削除",
     "ContextMenu-Delete1BranchInFolder": "フォルダー「{0}」内の 1 つの ブランチ を削除",
@@ -1140,10 +1079,8 @@
     "ContextMenu-SquashXCommits": "{0} 件の コミット を スカッシュ",
     "ContextMenu-UnfavoriteRepository": "リポジトリをお気に入りから削除",
     "ContextMenu-ViewServiceRemoteInBrowser": "{1} で {0} を表示",
-
     "StashDeletion-Complete": "スタッシュの削除が完了しました",
     "StashDeletion-SuccessfullyDeletedNStashes": "{1} 件中 {0} 件の スタッシュ を正常に削除しました。",
-
     "Toolbar-CloseSubmodule": "サブモジュールを閉じる",
     "Toolbar-CloseRepository": "リポジトリを閉じる",
     "Toolbar-CloseWorktree": "ワークツリーを閉じる",
@@ -1151,10 +1088,8 @@
     "Toolbar-PullMergeNotAvailableInDetachedHead": "detached HEAD 状態では プル（可能な場合は ファストフォワード）を使用できません",
     "Toolbar-PullFastForwardOnlyNotAvailableInDetachedHead": "detached HEAD 状態では プル（ファストフォワード のみ）を使用できません",
     "Toolbar-PullRebaseNotAvailableInDetachedHead": "detached HEAD 状態では プル（リベース）を使用できません",
-
     "BreadCrumbs-FavoritesHeader": "お気に入り",
     "BreadCrumbs-RecentsHeader": "最近開いたもの",
-
     "Profile-AddAProfile": "プロファイルを追加",
     "Profile-AddProfile": "プロファイルを追加",
     "Profile-AuthorEmail": "作成者メールアドレス",
@@ -1194,7 +1129,6 @@
     "Profile-SyncChangesSub": "チェックすると、GitKraken Desktopはグローバルな.gitconfigをGitKrakenの設定（commit作成者名・メールアドレス、GPG設定など）に合わせて更新します。",
     "Profile-Synced": "同期済み",
     "Profile-Type": "タイプ",
-
     "ProfileAccountMenu-Account": "アカウント",
     "ProfileAccountMenu-CommitSignature": "commit署名",
     "ProfileAccountMenu-AIUsage": "AI使用状況",
@@ -1207,9 +1141,7 @@
     "ProfileAccountMenu-SignIn": "サインイン",
     "ProfileAccountMenu-SignOut": "サインアウト",
     "ProfileAccountMenu-SuccessfullySignedOut": "サインアウトしました",
-
     "Profiles": "プロファイル",
-
     "RefBar-FilterIconToolTip": "フィルタリングされた結果",
     "RefBar-GroupCloudPatches": "CLOUD PATCHES",
     "RefBar-GroupGitFlow": "GITFLOW",
@@ -1241,12 +1173,9 @@
     "RefBar-BranchActions": "branchアクション",
     "RefBar-TagActions": "tagアクション",
     "RefBar-SilentFetchFailed": "自動fetchに失敗しました。詳細は手動でfetchしてください。",
-
     "Repo-SuccessfullyCreatedRepo": "リポジトリを正常に作成しました",
-
     "PullRequest-SuccessfullyCreatePullRequest": "プル リクエストを正常に作成しました",
     "ViewOnHostingService": "{0}で表示",
-
     "PullRequestBar-Assignees": "担当者",
     "PullRequestBar-Reviewers": "レビュアー",
     "PullRequestBar-Labels": "ラベル",
@@ -1263,7 +1192,6 @@
     "PullRequestBar-AddPullRequestRemote": "{0}をリモートとして追加",
     "PullRequestBar-AddPullRequestRemoteAndCheckoutPRHead": "リモートを追加して{0}をチェックアウト",
     "PullRequestBar-CreateWorktree": "プルリクエストからワークツリーを作成",
-
     "PullRequestFilter-CancelLabel": "キャンセル",
     "PullRequestFilter-CreateFilter": "フィルターを作成",
     "PullRequestFilter-CreateFilterLabel": "プル リクエストフィルターを作成",
@@ -1279,7 +1207,6 @@
     "PullRequestFilter-RemoveFilterLabel": "削除",
     "PullRequestFilter-RemoveFilterPrompt": "「{0}」フィルターを削除しますか？",
     "PullRequestFilter-SearchPlaceholder": "プル リクエストを検索",
-
     "PullRequestFilter-SyntaxAssignee": "assignee",
     "PullRequestFilter-SyntaxAssigneeLabel": "担当者:",
     "PullRequestFilter-SyntaxAuthorLabel": "作成者:",
@@ -1318,7 +1245,6 @@
     "PullRequestFilter-SyntaxTrue": "true",
     "PullRequestFilter-SyntaxUpdatedLabel": "更新日:",
     "PullRequestFilter-SyntaxUserName": "user_name",
-
     "PullRequestPanel-AddAssignee": "担当者を追加...",
     "PullRequestPanel-AddAssignees": "担当者を追加...",
     "PullRequestPanel-AddLabels": "ラベルを追加...",
@@ -1352,10 +1278,8 @@
     "PullRequestPanel-AzureDevopsEditPullRequestWarning": "Azure DevOpsで編集を選択した場合、プル リクエストのタイトルや説明はAzure DevOpsに引き継がれません",
     "PullRequestPanel-GitHubEditPullRequestWarning": "GitHubで編集を選択した場合、プル リクエストのレビュアーはGitHubに引き継がれません",
     "PullRequestPanel-GitHubDraftPullRequestTooltip": "ドラフトプル リクエストは、GitHub Freeの組織向けパブリックリポジトリおよびレガシーのリポジトリ別課金プラン、およびGitHub TeamとGitHub Enterprise Cloudのパブリック・プライベートリポジトリで利用可能です。",
-
     "PullRequestTemplate-Repository": "{0}（リポジトリ）",
     "PullRequestTemplate-Organization": "{0}（組織）",
-
     "PullRequestTooltip-WantsToMerge": "をmergeしようとしています",
     "PullRequestTooltip-Into": "に",
     "PullRequestTooltip-BuildStatus": "ビルドステータス:",
@@ -1378,7 +1302,6 @@
     "IssueTooltip-Reporter": "報告者",
     "IssueTooltip-Status": "ステータス",
     "IssueTooltip-None": "なし",
-
     "IssueViewPanel-Branches": "ブランチ",
     "IssueViewPanel-Repository": "リポジトリ",
     "IssueViewPanel-BranchName": "branch名",
@@ -1417,7 +1340,6 @@
     "JiraFilterForm-JqlMissingProject": "JQLには'project = \"{0}\"'が含まれている必要があります",
     "JiraFilterForm-JqlPlaceholder": "JQLクエリを入力",
     "JiraFilterForm-ValidateError": "Jiraでクエリを検証できません",
-
     "MemberMenu-AreYouSureRemoveMember": "「{0}」を組織から削除してよろしいですか？",
     "MemberMenu-CurrentOwner": "現在のオーナー",
     "MemberMenu-EmailsDontMatch": "メールアドレスが一致しません",
@@ -1431,15 +1353,10 @@
     "MemberMenu-TransferWarning": "{0}をこの組織のオーナーにする操作は元に戻せません。あなたは管理者に降格されます。ライセンスが不足している場合は請求担当者になります。請求担当者はライセンスを消費しません。",
     "MemberMenu-SelectToTransfer": "移譲するメンバーを選択",
     "MemberMenu-VerifyTransferOwnership": "確認のため、以下に「{0}」と入力してください。",
-
     "RemoteBar-Menu": "リモートアクション",
-
     "ShPath-ConfirmPath": "このリポジトリはGitHooksの実行にshが必要です。{0}はshへのパスですか？",
-
     "StashBar-Menu": "stashアクション",
-
     "WorkDirMessageInput-WIPPlaceholder": "// WIP",
-
     "Timeline-1HourAgo": "1時間前",
     "Timeline-NHoursAgo": "{0}時間前",
     "Timeline-Yesterday": "昨日",
@@ -1452,7 +1369,6 @@
     "Timeline-NYearsAgo": "{0}年前",
     "Timeline-NPlusYearsAgo": "{0}年以上前",
     "Timeline-ArbitrarilyLongAgo": "スクロールはそこまでにしてください",
-
     "Graph-AdjustCommitCount": "{0}個のcommitを表示中。この設定は",
     "Graph-Preferences": "設定",
     "Graph-IsLoadingRows": "読み込み中...",
@@ -1479,21 +1395,17 @@
     "OptionalGraphZone-CommitMessage": "commitメッセージ",
     "OptionalGraphZone-Graph": "グラフ",
     "OptionalGraphZone-Ref": "ブランチ / タグ",
-
     "IssueIcon-Tooltip": "{0}: {1}",
     "PullRequestIcon-Tooltip": "#{0}: {1}",
-
     "UpstreamIndicatorIcon-BehindAndAheadTooltip": "{2}より{0}個のcommitが遅れており、{1}個のcommitが先行しています\n ダブルクリックで変更をpull",
     "UpstreamIndicatorIcon-BehindTooltip": "{1}より{0}個のcommitが遅れています\n ダブルクリックで変更をpull",
     "UpstreamIndicatorIcon-AheadTooltip": "{1}より{0}個のcommitが先行しています\n ダブルクリックで変更をpush",
-
     "Ref-Current": "現在",
     "Ref-Pinned": "固定",
     "Ref-Local": "ローカル",
     "Ref-Remote": "リモートブランチ",
     "Ref-Tag": "タグ",
     "Ref-Worktree": "ワークツリー",
-
     "RightPanel-FilterFiles": "ファイルをフィルター",
     "RightPanel-MergeConflictsDetected": "mergeコンフリクトが検出されました",
     "RightPanel-1ChangeOn": "1ファイルの変更（対象:",
@@ -1513,7 +1425,6 @@
     "RightPanel-View1FileConflictInWorkingDirectory": "作業ディレクトリの1ファイルのコンフリクト",
     "RightPanel-ViewNFileConflictsInWorkingDirectory": "作業ディレクトリの{0}ファイルのコンフリクト",
     "RightPanel-ViewAllFiles": "すべてのファイルを表示",
-
     "StagingPanel-Amend": "修正",
     "StagingPanel-WarningDetachedHeadState": "detached HEAD状態です",
     "StagingPanel-DetachedHeadStateExplanation": "別のブランチまたはコミットをチェックアウトすると、detached HEAD状態で作成されたコミットが失われる可能性があります",
@@ -1521,24 +1432,18 @@
     "CommitMessage-SummaryPlaceholder": "commitの概要",
     "CommitMessage-DescriptionPlaceholder": "説明",
     "CommitMessage-SummaryChars": "ほとんどのウェブサイトやCLIツールでは{0}文字以内のcommit概要が完全に表示されます。",
-
     "SharedPatchMessage-SummaryPlaceholder": "Cloud Patchタイトル",
     "SharedPatchMessage-DescriptionPlaceholder": "説明",
-
     "CodeSuggestMessage-SummaryPlaceholder": "提案タイトル",
     "CodeSuggestMessage-DescriptionPlaceholder": "説明",
-
     "StashMessage-SummaryPlaceholder": "stashタイトル",
     "StashMessage-DescriptionPlaceholder": "説明",
-
     "StashMessage-GeneratingMessage": "メッセージを生成中",
     "StashMessage-GenerateStashMessage": "AIでstashメッセージを生成",
     "StashMessage-NoStagedChanges": "stashメッセージを生成するにはステージングされた変更が必要です。",
-
     "CommitMessage-GeneratingMessage": "メッセージを生成中",
     "CommitMessage-GenerateCommitMessage": "AIでcommitメッセージを生成",
     "CommitMessage-NoStagedChanges": "commitメッセージを生成するにはステージングされた変更が必要です。",
-
     "CommitDetailPanel-AndTheWIP": "とWIP",
     "CommitDetailPanel-CommitOptions": "commitオプション",
     "CommitDetailPanel-DiffBetweenACommitAndTheWIP": "commitとWIPの差分を表示中",
@@ -1575,7 +1480,6 @@
     "UncommittedFileList-StagedFilesTitleSummary": "ステージング済みファイル ({0})",
     "UncommittedFileList-UnconflictedFilesTitleSummary": "解決済みファイル ({0})",
     "UncommittedFileList-UnstagedFilesTitleSummary": "ステージングされていないファイル ({0})",
-
     "FileViewPanel-DiffView": "差分ビュー",
     "FileViewPanel-EditInWorkDir": "作業ディレクトリで編集",
     "FileViewPanel-EditThisFile": "このファイルを編集",
@@ -1595,7 +1499,6 @@
     "FileViewPanel-WordWrap": "ワードラップ",
     "FileViewPanel-History": "履歴",
     "FileViewPanel-Blame": "注釈",
-
     "PendingInteractiveRebasePanel-CherryPickingXCommitsOnto": "{1}に{0}件のcommitをcherry pick中",
     "PendingInteractiveRebasePanel-ComposingXCommitsOnto": "{1}に{0}件のcommitを構成中",
     "PendingInteractiveRebasePanel-RebasingXCommitsOnto": "{1}に{0}件のcommitをrebase中",
@@ -1605,28 +1508,21 @@
     "PendingInteractiveRebasePanel-CancelRebase": "Rebaseをキャンセル",
     "PendingInteractiveRebasePanel-StartRebase": "Rebaseを開始",
     "PendingInteractiveRebasePanel-UpdateMessage": "メッセージを更新",
-
     "PendingInteractiveRebasePanel-InteractiveCherrypick": "インタラクティブCherry Pick",
     "PendingInteractiveRebasePanel-CancelCherrypick": "Cherry Pickをキャンセル",
     "PendingInteractiveRebasePanel-StartCherrypick": "Cherry Pickを開始",
-
     "PendingInteractiveRebasePanel-CommitComposer": "Commitコンポーザー",
     "PendingInteractiveRebasePanel-StartCommitCompose": "Commitを作成",
-
     "FileContentsPanel-Binary": "バイナリファイル",
     "FileContentsPanel-Deleted": "ファイルは削除されました",
     "FileContentsPanel-EmptyDiff": "ファイルの内容は変更されていません。",
-
     "FileNodeListControls-FullPath": "パス",
     "FileNodeListControls-SortByNameLabel": "ファイル名でソート",
     "FileNodeListControls-TreeView": "ツリー",
-
     "FileNodeListHeader-CollapseAll": "すべて折りたたむ",
     "FileNodeListHeader-ExpandAll": "すべて展開",
-
     "FileNode-1HiddenSelection": "1件のファイルを選択中",
     "FileNode-NHiddenSelections": "{0}件のファイルを選択中",
-
     "Merge-AutoResolved": "Mergeツールが競合を自動的に解決しました",
     "Merge-A": "A",
     "Merge-B": "B",
@@ -1652,11 +1548,9 @@
     "Merge-UpgradeText": "ファイル出力を編集するには",
     "Merge-PremiumMergeDescription": "GitKrakenをアップグレードして、アプリケーションを離れることなく出力を直接編集できる機能でmerge競合の解決をさらに簡単にしましょう。",
     "Merge-XConflicts": "({0}件の競合)",
-
     "DiffImage-ShowDiffOverlay": "diffオーバーレイ（旧画像）",
     "DiffImage-OldImage": "旧画像",
     "DiffImage-NewImage": "新画像",
-
     "Patch-Apply": "パッチを適用",
     "Patch-ApplyTo": "{0}にパッチを適用",
     "Patch-StashApplyTo": "WIPをstashして{0}にパッチを適用",
@@ -1697,7 +1591,6 @@
     "Patch-SelfHostedReminder": "Cloud Patchは組織によって安全に保管されています。",
     "Patch-PatchNumber": "パッチ {0}",
     "Patch-PatchNumberAndRepoName": "パッチ {0}（{1}）",
-
     "CloudPatch-CreateFromAllFiles": "すべてのファイルからCloud Patchを作成",
     "CloudPatch-CreateFromStagedFiles": "ステージ済みファイルからCloud Patchを作成",
     "CloudPatch-CreateVisibilityPublic": "リンクを持つ全員",
@@ -1717,17 +1610,14 @@
     "CloudPatch-SuggestChangesOnPRTemplate-Summary": "{0}{1}のCode Suggestion",
     "CloudPatch-SuggestChangesOnRemoteConflictTemplate-Summary": "{0}との潜在的な競合",
     "CloudPatch-SuggestChangesOnRemoteConflictTemplate-Description": "{1}でのあなたの変更と競合する可能性のある{0}での私の変更です。このパッチを適用して競合を確認・解決してください。",
-
     "CloudPatch-InfoTooltip-Title": "変更をCloud Patchとして送信",
     "CloudPatch-InfoTooltip-1": "作業ディレクトリに変更がある場合、GitKrakenはその変更をリンクから簡単にアクセスできるパッチとして共有する機能を提供します。",
     "CloudPatch-InfoTooltip-2": "アクセス権を自分でコントロールできます。公開にするか特定のユーザーを組織に招待するかを選択でき、GitKrakenが共有用のリンクを生成します。招待者がGitKraken Desktopを使用していれば、アプリ内で通知を受け取ります。権限を持つ人は誰でも{0}でパッチを確認できます。",
     "CloudPatch-InfoTooltip-LearnMore": "Cloud Patchの詳細を見る",
-
     "CodeSuggest-InfoTooltip-Title": "変更をCode Suggestionとして送信",
     "CodeSuggest-InfoTooltip-1": "PRに関連付けられたbranchに変更がある場合、GitKrakenはその変更をリモートbranchにcommit・pushすることなくPR作成者にレビュー用として送信できます。",
     "CodeSuggest-InfoTooltip-2": "PR作成者は{0}でリンクをたどってその変更をレビュー、承認、または拒否できます。GitKraken Desktopのインストールは不要です。",
     "CodeSuggest-InfoTooltip-LearnMore": "Code Suggestの詳細を見る",
-
     "CodeSuggest-ApplyTo": "{0}に提案を適用",
     "CodeSuggest-PromptCheckoutHead": "このプルリクエストのブランチを編集するにはチェックアウトする必要があります。続行しますか？",
     "CodeSuggest-StashApplyTo": "WIPをstashして{0}に提案を適用",
@@ -1737,7 +1627,6 @@
     "CodeSuggest-AlreadyArchivedRejected": "このCode Suggestionは拒否されました",
     "CodeSuggest-AlreadyArchivedUnknown": "このCode Suggestionはアーカイブされました",
     "CodeSuggest-ProviderAccessInfo": "このPRにアクセスできる人は誰でも表示・承認できます。",
-
     "ConflictDetection-Popover-Tooltip": "{0}との競合が検出されました。クリックして詳細を確認し解決してください。",
     "ConflictDetection-Popover-Title": "ターゲットbranchとの競合を検出",
     "ConflictDetection-Popover-Description-YourBranch": "あなたのbranch: {0}",
@@ -1771,7 +1660,6 @@
     "ConflictDetection-Popover-OpenAPullRequestToBranch": "{1}への{0}を開く",
     "ConflictDetection-Popover-UnknownBranchName": "不明",
     "ConflictDetection-Popover-ViewPullRequestOnProvider": "{2}で{0} #{1}を表示",
-
     "Feedback-Tooltip-Helpful": "役に立った",
     "Feedback-Tooltip-NotHelpful": "役に立たなかった",
     "Feedback-Thanks-Helpful": "ありがとうございます — お役に立てて嬉しいです！",
@@ -1797,15 +1685,12 @@
     "Feedback-AI-NotHelpful-CTA-title": "回答に満足できませんか？",
     "Feedback-AI-NotHelpful-CTA-body": "カスタム指示を追加してAIの出力を改善する",
     "Feedback-AI-NotHelpful-CTA-button": "指示をカスタマイズ",
-
     "RefZone-EnterBranchName": "branch名を入力",
     "RefZone-EnterTagName": "tag名を入力",
     "RefZone-LocalRefLabel": "ローカル",
-
     "ChangeRepo-InitRepo": "初期化",
     "ChangeRepo-OpenRepo": "参照",
     "ChangeRepo-OpenRepoManagementTab": "リポジトリ管理タブを開く",
-
     "OpenRepo-AddProjectFolder": "プロジェクトフォルダを追加",
     "OpenRepo-AddProjectFolderTooltip": "複数のリポジトリを格納するフォルダを追加して、GitKraken Desktopがすばやく開けるようにします",
     "OpenRepo-BrowseForProjectDirectory": "プロジェクトディレクトリを参照",
@@ -1826,18 +1711,14 @@
     "OpenRepo-SearchBarPlaceholder": "名前でリポジトリをフィルター",
     "OpenRepo-InvalidFilepath": "無効なファイルパス",
     "OpenRepo-CouldNotFindRepoAtFilepath": "{0}にリポジトリが見つかりませんでした",
-
     "ALL_REPOS_SECTION": "すべてのリポジトリ",
     "OPEN_REPOS_SECTION": "開いているリポジトリ",
     "FAVORITE_REPOS_SECTION": "お気に入り",
     "RECENT_REPOS_SECTION": "最近のリポジトリ",
-
     "CloneRepositoryModal-Title": "リポジトリをclone",
     "InitRepositoryModal-Title": "リポジトリを初期化",
-
     "CloneRepositoriesModal-SelectLocationToCloneX": "{0}をcloneする場所を選択してください:",
     "CloneRepositoriesModal-SelectLocationToCloneXRepos": "{0}件のリポジトリをcloneする場所を選択してください:",
-
     "RepoManagement-Title": "リポジトリ管理",
     "RepoManagement-ErrorInRepository": "リポジトリ「{0}」で次のエラーが発生しました: {1}",
     "RepoManagement-OneSectionsIsHidden": "1つのグループが非表示",
@@ -1889,12 +1770,10 @@
     "RepoManagement-HideSection": "非表示",
     "RepoManagement-AllRepositoriesGroupsAreHidden": "すべてのリポジトリグループが非表示です。{0}を使用してグループを再表示してください。",
     "RepoManagement-NoResultsFound": "結果が見つかりません",
-
     "Color": "色",
     "Color-Gray": "グレー",
     "Graph-ColorNumber": "グラフの色 {0}",
     "DefaultColor": "デフォルト色",
-
     "CloneRepo-CloneARepo": "リポジトリをclone",
     "CloneRepo-CloneDestinationPath": "clone先",
     "CloneRepo-ClonedRepoName": "フルパス",
@@ -1912,9 +1791,7 @@
     "CloneRepo-Clone": "クローン",
     "CloneRepo-CloneRepository": "リポジトリをclone",
     "CloneRepo-CloneRepositories": "リポジトリをclone",
-
     "AddRemote-UnshallowWarning": "アンシャロー（un-shallow）リモートを追加すると、リポジトリの完全な履歴が直ちにダウンロードされます。",
-
     "ShallowCloneForm-Depth": "深さ",
     "ShallowCloneForm-DepthHelpText": "ターゲットbranchからcloneするcommit数。",
     "ShallowCloneForm-LimitHistoryBy": "履歴の制限方法",
@@ -1929,7 +1806,6 @@
     "ShallowCloneForm-SinceDateHelpText": "この日付より古いcommitはcloneされません。",
     "ShallowCloneForm-CustomFlags": "カスタムフラグ",
     "ShallowCloneForm-CustomFlagsHelpText": "ここでは{0}に必要な追加フラグを渡すことができます。コマンドラインと同じ形式で入力してください。",
-
     "SparseCheckoutForm-BloblessClone": "Blobなしクローン",
     "SparseCheckoutForm-BloblessCloneHelpText": "最初はblobなしでツリーとcommitをfetchし、cloneサイズを削減します。blobは必要に応じてオンデマンドでfetchされます。",
     "SparseCheckoutForm-Paths": "含めるパス",
@@ -1938,9 +1814,7 @@
     "Error-SparseCheckoutSet": "スパースチェックアウトの設定中にエラーが発生しました",
     "Error-SparseCheckoutReapply": "スパースチェックアウトの再適用中にエラーが発生しました",
     "Error-SparseCheckoutDisable": "スパースチェックアウトの無効化中にエラーが発生しました",
-
     "LocateRepo-LocateInFilesystem": "ファイルシステムで探す",
-
     "InitRepo-CreateRepoButtonLabel": "リポジトリを作成",
     "InitRepo-CreateRepoAndCloneButtonLabel": "リポジトリを作成してclone",
     "InitRepo-CreateRepoTarget": "初期化先",
@@ -1959,10 +1833,8 @@
     "InitRepo-PublicAccess": "公開",
     "InitRepo-PrivateAccess": "非公開",
     "InitRepo-PrivateRepoNeedsAnAccount": "プライベートリポジトリにアクセスするには、無料トライアルの開始を求められます。",
-
     "FileHistory-NothingFound": "{0}（{1}）まで検索しました",
     "FileHistory-ContinueLooking": "さらに深く探す",
-
     "GeneralPreferences": "一般",
     "GeneralPreferences-AllowTeamVisibility": "現在のbranchの状態をチームと共有する",
     "GeneralPreferences-AllowTeamVisibilityHelp": "無効にすると、GitKrakenはローカルの変更のサマリーに基づいてチームメートに潜在的な競合を通知しなくなります。",
@@ -2003,7 +1875,6 @@
     "GeneralPreferences-Squash": "スカッシュ",
     "GeneralPreferences-SquashHelp": "有効にすると、ローカルでbranchをmergeする際にすべての変更がステージされ、マージ commitが自動的に作成されません。手動でcommitする必要があります。",
     "GeneralPreferences-ToSquashMergeYouMustEnableGitBinary": "スカッシュ mergeを行うには、環境設定 > 実験的機能でGit実行ファイルを有効にする必要があります",
-
     "ConflictPrevention": "競合防止",
     "ConflictDetectionPreferences-Label": "競合防止",
     "ConflictDetectionPreferences-Instructions": "GitKraken Desktopは作業中にbranchを「ベース」branchと自動的に比較して、競合が生じないか確認できます。",
@@ -2031,7 +1902,6 @@
     "ConflictDetectionPreferences-BranchMatchingRulesExample4Details1": "origin",
     "ConflictDetectionPreferences-IgnoredBranches": "競合防止から除外されたbranch",
     "ConflictDetectionPreferences-IgnoredBranchesHelp": "以下のブランチがチェックアウトされている場合、チームメートとの潜在的な競合警告を受け取りません。",
-
     "ToolPreferences-Label": "外部ツール",
     "ToolPreferences-ExternalMergeToolSubHeader": "Mergeツール",
     "ToolPreferences-ExternalMergeTool": "外部Mergeツール",
@@ -2039,28 +1909,22 @@
     "ToolPreferences-ExternalDiffTool": "外部Diffツール",
     "ToolPreferences-ExternalEditor": "外部エディター",
     "ToolPreferences-ExternalTerminal": "外部ターミナル",
-
-
     "ToolPreferences-ShowArguments": "引数を表示",
     "ToolPreferences-HideArguments": "引数を非表示",
-
     "ToolPreferences-ExternalEditorSubHeader": "エディター",
     "ToolPreferences-CustomExternalEditorPath": "エディター実行ファイル",
     "ToolPreferences-CustomOpenFileCommand": "ファイルを開くコマンド",
     "ToolPreferences-CustomOpenRepoCommand": "リポジトリを開くコマンド",
     "ToolPreferences-MacOSBundleWarning": "アプリケーションバンドルが選択されています。一部のエディターでは特定のコマンドに必要なフラグがサポートされない場合があります。最善の結果を得るには、エディターのコマンドライン実行ファイルを選択してください。{0}",
-
     "ToolPreferences-GitLensCallout-Heading": "GitLens",
     "ToolPreferences-GitLensCallout-Message": "{0}向けNo.1 Git拡張機能。",
     "ToolPreferences-GitLensCallout-Included": "GitKraken Proに含まれています。",
     "ToolPreferences-GitLensCallout-LearnMore": "詳細を見る",
     "ToolPreferences-GitLensCallout-Install": "インストール",
     "ToolPreferences-GitLensCallout-Open": "開く",
-
     "ToolPreferences-ExternalTerminalSubHeader": "ターミナル",
     "ToolPreferences-CustomExternalTerminalPath": "ターミナル実行ファイル",
     "ToolPreferences-CustomExternalTerminalCommand": "ターミナル引数",
-
     "ToolPreferences-CodingAgentSubHeader": "コーディングエージェント",
     "ToolPreferences-CodingAgent": "コーディングエージェント",
     "ToolPreferences-AgentStatusIntegrationsSubHeader": "エージェントステータス連携",
@@ -2075,20 +1939,15 @@
     "ToolPreferences-OpenCodePlugin-InstallButton": "プラグインをインストール",
     "ToolPreferences-OpenCodePlugin-ReinstallButton": "プラグインを再インストール",
     "ToolPreferences-OpenCodePlugin-UninstallButton": "プラグインをアンインストール",
-
     "Preferences-DisabledByOrgLabel": "この機能は組織によって無効化されています。",
     "Preferences-Preferences": "環境設定",
     "Preferences-Repo": "リポジトリ: {0}",
-
     "SyncWithSystem": "システムと同期",
-
     "RepoSpecificPreferences": "リポジトリ固有の設定",
-
     "GitConfig": "Git Config",
     "GitConfig-Email": "作成者のメールアドレス",
     "GitConfig-Name": "作成者名",
     "GitConfig-AutoCRLF": "AutoCRLF",
-
     "ConfigureGitForm-title": "Gitの詳細を確認",
     "ConfigureGitForm-desc": "commitに署名する際に使用する名前とメールアドレスでGitの作成者詳細を確認してください。",
     "ConfigureGitForm-AuthorEmail": "メールアドレス",
@@ -2098,7 +1957,6 @@
     "ConfigureGitForm-SaveGitAuthorDetails": "Git Commitにこれらを使用",
     "ConfigureGitForm-SampleCommit": "サンプルcommit",
     "ConfigureGitForm-SampleCommit-commitMessage": "テストを直接本番環境に届けています。",
-
     "GitSurveyForm-title": "質問が1つあります — Gitにどれくらい慣れていますか？",
     "GitSurveyForm-desc": "あなたの回答がエクスペリエンスを向上させます",
     "GitSurveyForm-NotAtAll": "まったく — 始めたばかりです",
@@ -2108,12 +1966,13 @@
     "GitSurveyForm-Skip": "アプリに直接進む",
     "GitSurveyForm-GitCertificationCourse": "初心者向けの無料Git認定コースを用意しています。",
     "GitSurveyForm-CheckOutCourse": "コースを確認する",
-
     "SuggestedOrgsForm-title": "GitKrakenでチームに参加する",
     "SuggestedOrgsForm-AdminNotified": "参加リクエストが管理者に通知されました",
-
     "SuggestedOrgs-WeHaveNotifiedTheTeam": "参加したい旨をチームに伝えました！",
-
+    "AzureOrgPickerForm-title": "Azure DevOps オーガニゼーションを選択",
+    "AzureOrgPickerForm-description": "開始するオーガニゼーションを選択してください。後で設定からいつでも変更できます。",
+    "AzureOrgPickerForm-Skip": "このステップをスキップ",
+    "AzureOrgPickerForm-skipHint": "スキップすると、Azure DevOps が部分的に接続された状態になります。後で「設定 → 統合 → Azure DevOps」から完了できます。",
     "WelcomeForm-ConnectGitProvider-title": "Git プロバイダーを接続",
     "WelcomeForm-ConnectGitProvider-desc": "より多くの機能のロックを解除し、GitKraken Advanced の 14 日間トライアルを開始します。",
     "WelcomeForm-iAgreeToThe": "続行することで、GitKrakenの",
@@ -2122,31 +1981,25 @@
     "WelcomeForm-SkipThisStep": "このステップをスキップ",
     "WelcomeForm-YouAreAlreadyLoggedIn": "接続済みです！",
     "WelcomeForm-Continue": "続行",
-
     "OnboardingGetReadyPanel-Title": "Git GUI以上のものへようこそ 🚀",
     "OnboardingGetReadyPanel-GkdAllowsYouTo": "GitKraken Desktopでできること:",
     "OnboardingGetReadyPanel-ReduceErrors": "エラーを削減 — Gitコマンド不要。",
     "OnboardingGetReadyPanel-SimplifyYourWorkflow": "GitKraken AIでワークフローを加速。",
     "OnboardingGetReadyPanel-InteractAndActionYourCodeHistory": "コミット Graphでリポジトリを可視化。",
     "OnboardingGetReadyPanel-PreventConflicts": "競合防止で競合を回避。",
-
     "OnboardingGetReadyPanel-AndMuchMore": "その他にも多数！",
-
     "OnboardingLoginForm-title": "GitKraken Desktopへようこそ",
     "OnboardingLoginForm-ConnectGitProvider-title": "Gitプロバイダーを接続",
-
     "OnboardingLearnBasicsOfGkdForm-Title": "この1分間のチュートリアルでGitKraken Desktopの基本を学ぶ",
     "OnboardingLearnBasicsOfGkdForm-StartTutorial": "チュートリアルを開始",
     "OnboardingLearnBasicsOfGkdForm-AlreadyKnowWhatYouAreDoing": "すでに操作方法を知っていますか？",
     "OnboardingLearnBasicsOfGkdForm-OpenRepository": "リポジトリを開く",
     "OnboardingLearnBasicsOfGkdForm-CloneRepository": "リポジトリをclone",
-
     "OnboardingOpenRepoForm-title": "リポジトリを開く",
     "OnboardingOpenRepoForm-desc": "ローカルリポジトリを参照してプロジェクトを開始しましょう。",
     "OnboardingOpenRepoForm-BrowseYourRepos": "参照",
     "OnboardingOpenRepoForm-OpenTheRepo": "リポジトリを開く",
     "OnboardingOpenRepoForm-LocalPath": "ローカルパス",
-
     "RepoPathSelector-ChooseYourRepoPath": "リポジトリの場所を選択",
     "RepoPathSelector-LocalPathIsRequiredError": "ローカルパスは必須です",
     "RepoPathSelector-RepoIsEmptyError": "'{0}' にリポジトリが見つかりませんでした。別のディレクトリを開いてください",
@@ -2155,14 +2008,12 @@
     "RepoPathSelector-ScanningForRepositories": "リポジトリをスキャン中",
     "RepoPathSelector-MultipleReposFound": "選択したパスに複数のリポジトリが見つかりました",
     "RepoPathSelector-SelectRepo": "リポジトリを選択",
-
     "OnboardingChooseRepoForm-title": "開始するリポジトリを選択",
     "OnboardingChooseRepoForm-desc": "その場所に複数のリポジトリが見つかりました。1つ開いて開始してください。",
     "OnboardingChooseRepoForm-repoName": "リポジトリ名",
     "OnboardingChooseRepoForm-repoPath": "パス",
     "OnboardingChooseRepoForm-watchVideo": "動画を見る",
     "OnboardingChooseRepoForm-viewDocs": "ドキュメントを見る",
-
     "OnboardingCloneRepoForm-title": "リポジトリを クローン する",
     "OnboardingCloneRepoForm-RepoToCloneUrl": "リモートリポジトリの URL",
     "OnboardingCloneRepoForm-CloneDestinationPath": "クローン 先の場所を選択",
@@ -2171,16 +2022,11 @@
     "OnboardingCloneRepoForm-CloneWith": "{0} で クローン する",
     "OnboardingCloneRepoForm-CloneFrom": "{0} から クローン する",
     "OnboardingCloneRepoForm-Url": "URL",
-
     "Onboarding-NeedAnAccountToStartATrial": "この機能を試すにはアカウントが必要です。新しいアカウントを作成するか、既存のアカウントでログインしてください。",
     "Onboarding-NeedToPurchaseALicense": "トライアル期間が終了しました。この機能を使用するにはライセンスを購入する必要があります。",
-
     "OnboardingPromptForm-title": "追加情報が必要です",
-
     "OnboardingLoadingForm-desc": "しばらくお待ちください...",
-
     "WizardForm-backBtn": "戻る",
-
     "OnboardingTutorial-close-button-tooltip": "チュートリアルを閉じる",
     "OnboardingTutorial-close-repo-button-tooltip": "チュートリアルリポジトリを閉じる",
     "OnboardingTutorial-name-INTRO_TUTORIAL": "入門チュートリアル",
@@ -2215,10 +2061,8 @@
     "OnboardingTutorial-Tip-AiComposeCommits-Description": "GitKraken AI が コミット の整理と整頓を支援します。何を コミット するかはあなたが決めます。",
     "OnboardingTutorial-Tip-NotForYou": "お好みでない場合は？{0}",
     "OnboardingTutorial-Tip-TurnOffAi": "AI をオフにする",
-
     "Annotation-GitKrakenReview-Title": "GitKraken Code Review がプレビュー版で利用可能になりました！",
     "Annotation-GitKrakenReview-Description": "より見やすい差分、AI による提案、統合チャットで PR をすばやくレビューできます。GitHub と同じように承認やコメントが可能です。",
-
     "PurchaseReceipt-Updating": "更新中",
     "PurchaseReceipt-Type-Suite": "GitKraken {0} Suite",
     "PurchaseReceipt-Type-Gitgui": "GitKraken Desktop {0}",
@@ -2245,7 +2089,6 @@
     "PurchaseReceipt-Total": "合計",
     "PurchaseReceipt-NewIntervalTotal": "新しい {0} 合計",
     "PurchaseReceipt-NextChargeOn": "次回請求日: {0}",
-
     "SSH": "SSH",
     "SSHKey": "SSH キー",
     "SSHConfig": "SSH 設定",
@@ -2263,7 +2106,6 @@
     "Authentication-ForgetAllCredentials": "すべてのユーザー名とパスワードを削除",
     "Authentication-ForgetAll": "すべて削除",
     "Authentication-NoCredentialsToRemove": "GitKraken Desktop には削除するユーザー名・パスワードの認証情報が保存されていません",
-
     "Ssh-VerificationInfoNoAllowedSignersFileConfig": "gitconfig: SSH 署名の検証には gpg.ssh.allowedSignersFile の設定と存在が必要です",
     "Ssh-VerificationInfoNoSignature": "署名なし",
     "Ssh-VerificationInfoBadSignature": "無効な署名",
@@ -2275,7 +2117,6 @@
     "Ssh-VerificationKeyType": "キーの種類:",
     "Ssh-VerificationPrincipalId": "プリンシパル ID:",
     "Ssh-VerificationTitle": "SSH 署名の詳細",
-
     "Service": "サービス",
     "Services": "サービス",
     "Services-AddAndCopy": "SSH キーを追加してクリップボードにコピー",
@@ -2384,16 +2225,12 @@
     "Services-Error-HostDomainUnreachable": "指定したホストドメインに到達できませんでした",
     "Services-Error-TokenInvalid": "指定したトークンが無効です",
     "Services-Error-SaveAuthDataFailed": "インテグレーションへの接続に失敗しました",
-
     "Integrations": "インテグレーション",
-
     "Shop-ShopTitle": "アカウント管理",
     "Shop-OpenInBrowser": "ブラウザで開く",
-
     "Encoding-Label": "エンコーディング",
     "Encoding-Help": "このリポジトリでファイルを読み書きする際のデフォルトエンコーディング。",
     "Encoding-Description": "デフォルトエンコーディング",
-
     "Experimental-Label": "実験的機能",
     "ExperimentalPreferences-Disclaimer": "ここに記載されている機能はまだ開発中であり、GitKraken で取り組んでいる新機能の早期プレビューとして提供されています。実験的機能は意図通りに動作しない場合があり、将来変更または削除される可能性があります。これらの設定は完全に任意であり、問題が発生した場合はいつでもオフにできます。",
     "ExperimentalPreferences-Disclaimer2": "問題が発生した場合、またはその他のフィードバックがある場合は、GitKraken Desktop の改善にご協力いただくため、以下のリンクからチームにご連絡ください。",
@@ -2423,8 +2260,6 @@
     "ExperimentalPreferences-CloudPatchesWarningDescription": "安全なストレージは GitKraken が管理しています。",
     "ExperimentalPreferences-CloudPatchesSelfHostedDescription": "あなたの組織はクラウドパッチ用のセルフホストストレージを設定しています。",
     "ExperimentalPreferences-ContactUsInline": "お問い合わせください",
-
-
     "CommitPreferences-CommitTemplate": "コミット テンプレート",
     "CommitPreferences-CommitTemplateDocumentation": "Git コミット テンプレートのドキュメント",
     "CommitPreferences-DefaultPushAfterCommit": "コミット 後に プッシュ する",
@@ -2438,7 +2273,6 @@
     "CommitPreferences-SuccessSaveTemplate": "コミット テンプレートが正常に保存されました",
     "CommitPreferences-Summary": "サマリー",
     "CommitPreferences-UseTemplateForCommitMessages": "このテンプレートを コミット メッセージに適用する",
-
     "GitFlow": "Gitflow",
     "GitFlow-Branches": "ブランチ",
     "GitFlow-Prefixes": "プレフィックス",
@@ -2484,7 +2318,6 @@
     "GitFlow-CannotFinishReleaseMissingDevelop": "Release を完了するには {0} ブランチ が必要です",
     "GitFlow-CannotFinishReleaseMissingMaster": "Release を完了するには {0} ブランチ が必要です",
     "GitFlow-CannotStartHotfixMissingMaster": "Hotfix を開始するには {0} ブランチ が必要です",
-
     "GitHooks-BrowseForDirectory": "使用するディレクトリを選択",
     "GitHooks-Info": "このリポジトリとリンクされたワークツリーが使用する Git フックのディレクトリ。",
     "GitHooks-Instructions": "Git フックは コミット や プッシュ などのイベント後に実行されるシェルスクリプトです。詳細は {0} をご覧ください。",
@@ -2492,7 +2325,6 @@
     "GitHooks-Link": "GitKraken Desktop Git フックドキュメント",
     "GitHooks-Label": "Git フック",
     "GitHooks-Path": "Git フックディレクトリ",
-
     "GKAIPreferences-GitKrakenAI-Label": "GitKraken AI",
     "GKAIPreferences-UpgradeButtonFreeUser": "GitKraken AI を使用するにはアップグレードしてください",
     "GKAIPreferences-GitKrakenAI-Enable": "GitKraken AI を有効にする",
@@ -2501,38 +2333,30 @@
     "GKAIPreferences-UseCustomAiProvider": "独自の API キーを使用して AI リクエストを行う",
     "GKAIPreferences-UseCustomAiProvider-DisabledOrgOverride": "プロバイダーの設定は組織の管理者によって設定されています。",
     "GKAIPreferences-UseCustomAiProviderHelp": "有効にすると、GitKraken Desktop は選択したプロバイダーに直接リクエストを行います",
-
     "GKAIPreferences-TestConnectionButton-Label": "接続テスト",
     "GKAIPreferences-ApiKeyIsValid": "API キーは有効です",
-
     "GKAIPreferences-AnthropicEndpoint-Label": "Anthropic AI エンドポイント URL（任意）",
     "GKAIPreferences-GoogleEndpoint-Label": "Google AI エンドポイント URL（任意）",
     "GKAIPreferences-GenericEndpointHelp": "ほとんどの場合、変更する必要はありません。",
-
     "GKAIPreferences-OpenAiEndpoint-Label": "OpenAI エンドポイント URL（任意）",
     "GKAIPreferences-OpenAIEndpointHelp": "EU データレジデンシーなど、代替ドメインを使用する場合のみ変更してください。",
-
     "GKAIPreferences-AzureEndpoint-Label": "API エンドポイント URL",
     "GKAIPreferences-AzureEndpointHelp-1": "使用する Azure デプロイメントの完全な URL。",
     "GKAIPreferences-AzureEndpointHelp-2": "形式: ",
-
     "GKAIPreferences-CustomAiProvider-CustomUrlProviderName": "<カスタム URL>",
     "GKAIPreferences-CustomAiProvider-OptionalCustomProviderLabel": "プロバイダー",
     "GKAIPreferences-CustomAiProviderAPIKey-Label": "プロバイダー API キー",
     "GKAIPreferences-CustomAiProviderAPIKeyHelp": "API 呼び出しに使用する API キー",
     "GKAIPreferences-CustomAiProviderEndpointHelp": "プロバイダーの OpenAI API 互換エンドポイントの完全な URL",
     "GKAIPreferences-CustomAiProviderEndpoint-Label": "API エンドポイント URL",
-
     "GKAIPreferences-OllamaAPIKey-Label": "認証キー（任意）",
     "GKAIPreferences-OllamaAPIKeyHelp": "Ollama サーバーが認証済みプロキシの背後にある場合に必要になる場合があります",
     "GKAIPreferences-OllamaAPIKeyTest-Label": "接続テスト",
     "GKAIPreferences-OllamaEndpointHelp": "Ollama API の完全な URL（/chat/completions エンドポイントの場所）",
     "GKAIPreferences-OllamaEndpoint-Label": "Ollama URL",
-
     "GKAIPreferences-ConfigurationIsValid": "設定が成功しました",
     "GKAIPreferences-GenerateApiKeyForProvider": "{0} の API キーをここで生成してください。",
     "GKAIPreferences-UpgradeToConnectPrivateProvider": "プライベート AI プロバイダーを接続するにはアップグレードしてください",
-
     "GKAIPreferences-Global-Label": "グローバル指示",
     "GKAIPreferences-GlobalCustomInstructions-Label": "カスタム指示",
     "GKAIPreferences-GlobalCustomInstructionsHelp": "これらの指示は、以下で上書きされない限り、すべての AI 機能に適用されます。",
@@ -2556,12 +2380,10 @@
     "GKAIPreferences-PullRequestModel-Label": "GitKraken が PR タイトルと説明の生成に使用するモデル。",
     "GKAIPreferences-PullRequestCustomInstructions-Label": "カスタム指示",
     "GKAIPreferences-PullRequestCustomInstructionsHelp": "GitKraken AI がより良い プル リクエスト タイトルと説明を作成できるようにカスタム指示を追加してください。",
-
     "GKAIPreferences-ConflictResolution-Label": "コンフリクト解決",
     "GKAIPreferences-ConflictResolutionModel-Label": "GitKraken がコンフリクトの自動解決に使用するモデル。",
     "GKAIPreferences-ConflictResolutionCustomInstructions-Label": "カスタム指示",
     "GKAIPreferences-ConflictResolutionCustomInstructionsHelp": "GitKraken AI がコンフリクトをより良く自動解決できるようにカスタム指示を追加してください。",
-
     "AI-Template-RespondInLanguage-Label": "<言語>で回答する",
     "AI-Template-RespondInLanguage-Text": "<language>で回答してください。",
     "AI-Template-Concise-Label": "回答を簡潔に保つ",
@@ -2572,7 +2394,6 @@
     "AI-Template-TechnicalTone-Text": "開発チームにふさわしい技術的でプロフェッショナルなトーンを使用してください。",
     "AI-Template-CasualTone-Label": "カジュアルなトーン",
     "AI-Template-CasualTone-Text": "すべての回答にカジュアルでフレンドリーなトーンを使用してください。",
-
     "AI-Template-ConventionalCommits-Label": "Conventional Commits 形式",
     "AI-Template-ConventionalCommits-Text": "Conventional Commits を使用してすべての コミット メッセージをフォーマットしてください: type(scope): description。タイプ: feat、fix、docs、style、refactor、test、chore、perf、ci、build。",
     "AI-Template-50CharLimit-Label": "50文字制限",
@@ -2585,7 +2406,6 @@
     "AI-Template-WhatWhy-Text": "実装方法ではなく、何を変更したか、なぜ変更したかを説明してください。例: \"fix: ユーザー体験向上のためログインタイムアウトを解決\"",
     "AI-Template-ImperativeMoodCommits-Label": "命令形を使用する",
     "AI-Template-ImperativeMoodCommits-Text": "コミット のサブジェクトを命令形で書いてください（例: \"Add\"、\"Fix\"、\"Update\"）。",
-
     "AI-Template-ExplainBusinessImpact-Label": "ビジネスへの影響を説明する",
     "AI-Template-ExplainBusinessImpact-Text": "各 コミット の技術的な変更とビジネス・ユーザーへの影響の両方をわかりやすい言葉で説明してください。",
     "AI-Template-ExplainBullets-Label": "箇条書きを使用する",
@@ -2594,14 +2414,12 @@
     "AI-Template-ExplainComponents-Text": "影響を受けたコンポーネント、モジュール、またはコードベースの領域を常に記載してください。",
     "AI-Template-ExplainBeginnerFriendly-Label": "初心者にわかりやすい言葉",
     "AI-Template-ExplainBeginnerFriendly-Text": "ジュニア開発者が理解できるように技術的な概念をわかりやすい言葉で説明してください。",
-
     "AI-Template-StashTaskContext-Label": "現在のタスクのコンテキストを含める",
     "AI-Template-StashTaskContext-Text": "現在作業中の機能またはタスクを含めてください: \"WIP: feature-name - specific changes\"。",
     "AI-Template-StashActionVerbs-Label": "動作動詞を使用する",
     "AI-Template-StashActionVerbs-Text": "スタッシュ メッセージを動作動詞で始めてください: \"Adding\"、\"Fixing\"、\"Updating\"、\"Removing\"、\"Refactoring\"。",
     "AI-Template-StashBranchName-Label": "ブランチ 名を含める",
     "AI-Template-StashBranchName-Text": "次の形式にしてください: \"[ブランチ-name] スタッシュ された変更の簡単な説明\"。",
-
     "AI-Template-PRTestingInstructions-Label": "テスト手順を含める",
     "AI-Template-PRTestingInstructions-Text": "変更を確認するための具体的な手順を含む「テスト方法」セクションを含めてください。",
     "AI-Template-PRScreenshots-Label": "UI 変更のスクリーンショットを追加する",
@@ -2610,21 +2428,18 @@
     "AI-Template-PRBreakingChanges-Text": "破壊的変更がある場合は「破壊的変更」セクションを含め、影響と移行手順を明確に説明してください。",
     "AI-Template-PRReviewerGuidance-Label": "レビュアーへのガイダンスを追加する",
     "AI-Template-PRReviewerGuidance-Text": "レビュアーが確認すべき特定の領域や懸念点を強調した「レビューの焦点」セクションを含めてください。",
-
     "AI-Template-ConflictStrategy-Label": "解決戦略を説明する",
     "AI-Template-ConflictStrategy-Text": "競合する変更を保持、変更、またはマージすることを選択した理由を常に説明してください: \"受信した変更を保持した理由: ...\"。",
     "AI-Template-ConflictBothSides-Label": "両側を要約する",
     "AI-Template-ConflictBothSides-Text": "解決を説明する前に、競合する各 ブランチ が達成しようとしていたことを簡単に説明してください。",
     "AI-Template-ConflictPlainLanguage-Label": "コンフリクトマーカーの言語を使用する",
     "AI-Template-ConflictPlainLanguage-Text": "明確な言葉を使用してください: \"自分の変更を採用して解決\"、\"相手の変更を採用して解決\"、\"両方のアプローチを組み合わせて解決\"。",
-
     "AI-Template-ComposerAtomic-Label": "アトミック コミット のみ",
     "AI-Template-ComposerAtomic-Text": "各 コミット は、機能を壊さずに独立して リバート できる1つの論理的な変更を表す必要があります。",
     "AI-Template-ComposerSeparateRefactors-Label": "リファクタリングと機能を分離する",
     "AI-Template-ComposerSeparateRefactors-Text": "リファクタリング、フォーマット、クリーンアップの変更を新機能やバグ修正と同じ コミット に混在させないでください。",
     "AI-Template-ComposerSequential-Label": "順序立った論理的な順番",
     "AI-Template-ComposerSequential-Text": "各 コミット が前の コミット を基盤とするように論理的に並べ、履歴を読みやすく bisect に適した形にしてください。",
-
     "Lfs-TrackingPatternPlaceholder": "パターンを入力（例: *.zip）",
     "Lfs-AddTrackingPattern": "トラッキングパターンを追加",
     "Lfs-ViewGitattributes": "エディタで .gitattributes を表示",
@@ -2668,7 +2483,6 @@
     "Lfs-SuccessPrune": "LFS の prune が正常に完了しました",
     "Lfs-SuccessCheckout": "LFS のチェックアウトが正常に完了しました",
     "Lfs-UpToDate": "LFS ファイルは最新です",
-
     "SparseCheckout-Commands": "スパースチェックアウト コマンド",
     "SparseCheckout-Label": "スパースチェックアウト",
     "SparseCheckout-Edit": "スパースチェックアウト パスを編集",
@@ -2681,7 +2495,6 @@
     "SparseCheckoutForm-SetButtonHint": "スパースチェックアウトに含めるパスを有効化または更新する",
     "SparseCheckoutForm-DisableButtonHint": "スパースチェックアウトを無効にしてすべてのファイルを作業ディレクトリに復元する",
     "SparseCheckoutForm-ReapplyButtonHint": "スパースチェックアウトの現在のルールを再適用して作業ディレクトリを更新する",
-
     "submodule": "サブモジュール",
     "Submodule": "サブモジュール",
     "Submodules-Label": "サブモジュール",
@@ -2748,9 +2561,7 @@
     "Submodule-Error-SetUrl": "サブモジュール URL の設定エラー",
     "Submodule-Error-Clone": "サブモジュール {0} の クローン エラー",
     "Submodule-Error-CloneMultiple": "サブモジュール {0} の クローン エラー",
-
     "ModifySubmodule-Submit": "このサブモジュールを編集",
-
     "UIPreferences": "UI カスタマイズ",
     "UIPreferences-Theme": "テーマ",
     "UIPreferences-ShowCommitMessageInGraph": "グラフに コミット メッセージを表示",
@@ -2787,11 +2598,9 @@
     "UIPreferences-ResetGraphColumnsToCompactLayout": "列をコンパクトレイアウトにリセット",
     "UIPreferences-DefaultGroupColor": "デフォルトグループのデフォルトカラー",
     "UIPreferences-DefaultWorkspaceColor": "デフォルトのワークスペースカラー",
-
     "ShowCommitDescInGraphOpt-Always": "常に表示",
     "ShowCommitDescInGraphOpt-OnHover": "ホバー時",
     "ShowCommitDescInGraphOpt-Never": "表示しない",
-
     "Gpg-Passphrase": "GPG パスフレーズ",
     "Gpg-ReloadGpgKeys": "GPG キーを再読み込み",
     "Gpg-VerificationInfoBadsig": "署名が無効なため検証に失敗しました",
@@ -2806,7 +2615,6 @@
     "Gpg-VerificationPrimaryUserId": "プライマリユーザー ID:",
     "Gpg-VerificationTitle": "GPG 署名の詳細",
     "Gpg-VerificationTrust": "信頼度:",
-
     "GPGPreferences": "コミット 署名",
     "GPGPreferences-CopyPublicKey": "GPG 公開鍵をコピー",
     "GPGPreferences-ExpiredKeyLink": "期限切れのキーを更新するには？",
@@ -2843,7 +2651,6 @@
     "GPGPreferences-SshKeyNotInAgentTitle": "SSH キーを SSH エージェントに追加する必要がある場合があります",
     "GPGPreferences-SshKeyPrefixFormatNotInAgent": "'key::' プレフィックスで SSH キーを指定する場合、対応する秘密 SSH キーを SSH エージェントに追加する必要があります",
     "GPGPreferences-SshKeyPublicFormatNotInAgent": "公開 SSH キーファイルを指定する場合、対応する秘密 SSH キーを SSH エージェントに追加するか、ファイルが存在することを確認してください",
-
     "EditorPreferences": "エディター",
     "EditorPreferences-EOLCharacter": "行末文字",
     "EditorPreferences-EOLCharacterLF": "LF",
@@ -2856,9 +2663,7 @@
     "EditorPreferences-SyntaxHighlighting": "シンタックスハイライト",
     "EditorPreferences-WordWrap": "折り返し",
     "EditorPreferences-TabSize": "タブサイズ",
-
     "ToolbarLabels-Fetch": "フェッチ",
-
     "TabsBar-NewTabTitle": "新しいタブ",
     "TabsBar-FocusViewIconTooltip": "LaunchPad",
     "TabsBar-FocusViewTitle": "LaunchPad",
@@ -2868,18 +2673,14 @@
     "TabsBar-SearchTabs": "タブを検索",
     "TabsBar-RepoManagementIconTooltip": "リポジトリ管理",
     "TabsBar-StartAProTrial": "トライアルを開始",
-
     "ReleaseNotesTab-LoadingReleaseNotes": "リリースノートを読み込み中",
-
     "PromptCreateFork": "{1} で {0} を fork しますか？",
-
     "PromptDeletedFileConflict-KeepAncestor": "ベースバージョンを保持",
     "PromptDeletedFileConflict-KeepModified": "変更済みバージョンを保持",
     "PromptDeletedFileConflict-KeepNew": "新しいバージョンを保持",
     "PromptDeletedFileConflict-Message": "{0} は {1} で変更されましたが、{2} で削除されました。",
     "PromptDeletedFileConflict-NoBaseNoPairMessage": "GitKraken は {0} を保持するかどうかを判断できませんでした。保持しますか？",
     "PromptDeletedFileConflict-RemoveFile": "ファイルを削除",
-
     "PromptForCreds-EnterCredentialsForUrl": "{0} の認証情報を入力してください: ",
     "PromptForCreds-InvalidCredentialsForUrl": "{0} の認証情報が無効です。もう一度お試しください: ",
     "PromptForCreds-GpgPassphrase": "GPG パスフレーズを入力",
@@ -2907,39 +2708,30 @@
     "PromptForCreds-EnterUsernameInvalid": "{0} でユーザー名が受け入れられませんでした。もう一度お試しください:",
     "PromptForCreds-RememberMe": "ログイン状態を保持",
     "PromptForCreds-TabDiedError": "認証情報の入力画面が強制的に閉じられました。",
-
     "PromptForMerge-SaveAncestor": "A も B も選択しませんでした。先祖を保存しますか？",
     "PromptForMerge-SaveMergeWithUnresolvedConflicts": "未解決のコンフリクトがあります。どのように進めますか？",
-
     "PromptForRebase-ConfirmDropXCommits": "{0} 件の コミット を本当に破棄しますか？",
     "PromptForRebase-ConfirmDropCommit": "1 件の コミット を本当に破棄しますか？",
-
     "PromptForPush-LocalIsBehindRemote": "'{0}' は '{1}' より遅れています。プル を行って ブランチ を更新してください。",
     "PromptForPush-PushingReferenceRequiresForce": "このリファレンスを プッシュ するには強制が必要であり、破壊的で元に戻せません。プッシュ を完了しますか？",
     "PromptForPush-Warning": "警告！",
     "PromptForPush-RemoteChanged": "{0} '{1}' は最後の フェッチ 以降リモートで変更されています。",
     "PromptForPush-ConfirmForcePush": "Force プッシュ は破壊的な操作で元に戻せません。本当に実行しますか？",
     "PromptForPush-OAuthInvalid": "'{0}' の OAuth トークンが無効です。OAuth 認証情報を更新するか、OAuth なしで再試行しますか？",
-
     "PromptForRemoveWorktree-RemoveWorktreeRequiresForce": "このワークツリーを削除するには強制が必要であり、破壊的で元に戻せません。削除を完了しますか？",
-
     "PromptForRemoveWorktreeAndDeleteBranch-Confirm": "削除して破棄",
     "PromptForRemoveWorktreeAndDeleteBranch-Message": "'{0}' のワークツリーを完全に削除し、ローカルブランチ '{1}' を削除します。この操作は元に戻せません。",
-
+    "PromptForRemoveWorktreeAndDeleteBranchAndRemote-Message": "'{0}' のワークツリーを完全に削除し、ローカルブランチ '{1}' とそのリモートを削除します。この操作は元に戻せません。",
     "PromptForTagAnnotation-Message": "メッセージ:",
     "PromptForTagAnnotation-Placeholder": "注釈メッセージ",
-
     "PromptForDeleteRepo-Delete": "リポジトリを削除",
     "PromptForDeleteRepo-Message": "リポジトリ {0} を完全に削除しますか？",
-
     "PromptForLockWorktree-Message": "メッセージ（任意）:",
     "PromptForLockWorktree-Placeholder": "ロックメッセージ",
-
     "PromptIgnore-Message": "'{0}' を無視しますか？",
     "PromptIgnoreMultiple-Message": "{0} 件のファイルを無視しますか？",
     "PromptIgnore-Ignore": "無視する",
     "PromptIgnore-IgnoreAndUntrack": "無視してトラッキングを停止",
-
     "PromptNewBranchAtRemote-BranchNamePlaceholder": "ブランチ 名",
     "PromptNewBranchAtRemote-CreateBranch": "ここに ブランチ を作成",
     "PromptNewBranchAtRemote-OpenWorktree-CreateBranch": "ワークツリーを開いてここにブランチを作成",
@@ -2947,31 +2739,24 @@
     "PromptNewBranchAtRemote-OpenWorktree-Message": "'{0}' はすでにワークツリーに存在します。",
     "PromptNewBranchAtRemote-ResetLocal": "ここにローカルをリセット",
     "PromptNewBranchAtRemote-OpenWorktree-ResetLocal": "ワークツリーを開いてここにローカルをリセット",
-
     "PromptForCreateBranchName-CheckoutLabel": "作成後にチェックアウト",
     "PromptForCreateBranchName-Message": "新しいブランチの名前を入力してください:",
     "PromptForCreateBranchName-Placeholder": "ブランチ名",
-
     "PromptForCreateTagName-InvalidTagName": "指定されたタグ名は無効です",
     "PromptForCreateTagName-Message": "新しいタグの名前を入力してください:",
     "PromptForCreateTagName-Placeholder": "タグ名",
-
     "PromptForNewBranchName-InvalidBranchName": "指定された ブランチ 名は無効です",
     "PromptForNewBranchName-Message": "'{0}' の名前を変更する先:",
     "PromptForNewBranchName-Placeholder": "新しい ブランチ 名",
-
     "PromptForAddKeyHost": "ホスト '{0}' の真正性を確認できません。はいと答えると '{0}' が既知のホストリストに永久に追加されます。続行しますか？",
-
     "HostIdentificationChangedModal-warning": "警告: リモートホストの識別情報が変更されました！",
     "HostIdentificationChangedModal-fix": "新しいキーで known_hosts を更新",
     "HostIdentificationChangedModal-ExposureNote-line1": "注意: {0} は誤った公開により RSA ホストキーをローテーションしました。",
     "HostIdentificationChangedModal-ExposureNote-line2": "詳細は {0} を参照してください。",
     "HostIdentificationChangedModal-remote": "リモート: {0}",
-
     "CommitMessage-RemoteBranchCreated": "ブランチ: {0} を作成しました",
     "CommitMessage-SquashMerge": "{0} を {1} に スカッシュ マージ する",
     "CommitMessage-Merge": "{0} を {1} に マージ する",
-
     "IssueTrackerForm-AddCardButtonLabel": "カードを作成",
     "IssueTrackerForm-AddIssueButtonLabel": "Issue を作成",
     "IssueTrackerForm-AddIssueButtonLabelDisabled": "このプロジェクトの issue を作成する権限がありません。",
@@ -2983,7 +2768,6 @@
     "IssueTracker-RequiredFieldsNotice": "必須フィールド",
     "IssueTracker-MissingFieldToolTip": "必須フィールドが未入力です",
     "TrelloForm-DelayWarning": "Trello API の遅延により、新しいカードが表示されるまで最大1分かかる場合があります。",
-
     "RemoteForm-AddRemote": "リモートを追加",
     "RemoteForm-AddRemoteButtonLabel": "リモートを追加",
     "RemoteForm-AddUserRemote": "リモートを追加: {0}",
@@ -3012,15 +2796,12 @@
     "RemoteForm-TooManyServiceRemotesWarningNForks": "このリポジトリに関連する {0} 件の fork を取得中です。{1} から URL を取得する方が速い場合があります",
     "RemoteForm-TooManyServiceRemotesWarningManyForks": "このリポジトリに関連する多数の fork を取得中です。{0} から URL を取得する方が速い場合があります",
     "RemoteForm-Url": "URL",
-
     "RenameTabPrompt-MessageRepo": "リポジトリのエイリアス",
     "RenameTabPrompt-MessageTab": "タブのエイリアス",
     "RenameTabPrompt-SaveAliasBtn": "エイリアスを保存",
     "RenameTabPrompt-ClearBtn": "エイリアスをクリア",
-
     "SetUpstreamPrompt-InvalidBranchName": "指定された ブランチ 名は無効です",
     "SetUpstreamPrompt-SelectRemoteBranchMessage": "\"{0}\" の プッシュ 先および プル 元のリモート/ブランチ は何にしますか？",
-
     "ConfirmationMessage-AddRemoteAndCreateWorktree": "\"{0}\" をリモートとして追加し、\"{1}\" のワークツリーを作成しますか？",
     "ConfirmationMessage-ClonePullRequestHead": "\"{0}\" をリモートとして追加して \"{1}\" をチェックアウトしますか？",
     "ConfirmationMessage-ClonePullRequestHeadForFileChanges": "ファイルの変更を表示するために \"{0}\" をリモートとして追加しますか？",
@@ -3056,9 +2837,7 @@
     "ConfirmationMessage-RestoreFileWillOverwrite": "{0} を復元するとローカルの変更が上書きされます。続行しますか？",
     "ConfirmationMessage-RestoreFilesWillOverwrite": "選択したファイルを復元すると {0} ファイルのローカルの変更が上書きされます。続行しますか？",
     "ConfirmationMessage-ApplyRebaseRequiresStashAndCheckoutPrompt": "最後のリベースを元に戻す/やり直すには、ブランチ \"{0}\" の変更をスタッシュする必要があります。今すぐ実行しますか？",
-
     "DateTime-UnknownDate": "不明な日付",
-
     "DeepLink-AddRemote": "リモートを追加",
     "DeepLink-BranchLocationError": "ブランチ \"{0}\" が見つかりませんでした。",
     "DeepLink-ChooseRepo": "ディスク上の別のリポジトリを選択",
@@ -3094,14 +2873,12 @@
     "DeepLink-Tag": "tag",
     "DeepLink-Draft": "ドラフト",
     "DeepLink-UnkownType": "リンク",
-
     "UndoRedo-InformationMissing": "元に戻す情報がありません。ガベージコレクションされた可能性があります。",
     "UndoRedo-RedoFailed": "やり直しに失敗しました",
     "UndoRedo-RedoSuccessful": "やり直しが完了しました",
     "UndoRedo-UndoFailed": "元に戻すことに失敗しました",
     "UndoRedo-UndoSuccessful": "元に戻すことが完了しました",
     "UndoRedo-UndoCheckoutNotFound": "チェックアウトするリファレンスまたはコミットが見つかりませんでした",
-
     "View-ActivityLog": "アクティビティログ",
     "View-ActivityLog-HookTitle": "フック: {0}",
     "View-AutoUpdate": "インストーラーを選択",
@@ -3117,9 +2894,7 @@
     "View-ZoomDown": "ズームアウト",
     "View-ZoomReset": "ズームをリセット",
     "View-ZoomUp": "ズームイン",
-
     "GitKraken-Features": "GitKraken の機能",
-
     "NewTabView-RepositoriesSection": "リポジトリ",
     "NewTabView-RepositorySearch-Placeholder": "リポジトリを検索",
     "NewTabView-ConnectIntegrations-Title": "インテグレーションを追加する",
@@ -3146,7 +2921,6 @@
     "NewTabView-ExploreDevTools-Resources-IntroTutorials": "入門チュートリアル",
     "NewTabView-ExploreDevTools-Resources-ReleaseNotes": "リリースノート",
     "NewTabView-ExploreDevTools-Resources-Documentation": "ドキュメント",
-
     "KeyBindingFilter-Placeholder": "ショートカットをフィルター（{0} + F）",
     "KeyBindingHeader-RepoActions": "リポジトリアクション",
     "KeyBindingHeader-Navigation": "ナビゲーション",
@@ -3183,7 +2957,6 @@
     "KeyBinding-Unstage": "現在のファイルのステージを解除",
     "KeyBinding-UnstageAll": "すべてのファイルのステージを解除",
     "KeyBinding-OpenTabsList": "タブリストを開く",
-
     "Notification-AlreadyUpToDate": "すでに最新の状態です",
     "Notification-AppUpdateAvailable": "GitKraken Desktop のバージョン {0} が利用可能になりました。",
     "Notification-AnnotatedSuccessfully": "注釈の追加に成功しました",
@@ -3244,9 +3017,7 @@
     "NotificationMessage-PatchApplyWasNoop": "ただし、現在の ブランチ にはパッチのすべての変更がすでに含まれています。",
     "NotificationMessage-SSHKeyBeingUsed": "GitKraken Desktop はこのキーを使用して {0} と通信します。公開鍵がクリップボードにコピーされました。{0} アカウントに登録されていることを確認してください。",
     "NotificationMessage-StashingUncommittedChanges": "失われないように未 コミット の変更が スタッシュ されました。",
-
     "NotificationDesktop-XNewMessages": "{0} 件の新しい通知があります",
-
     "NotificationPreferences": "通知",
     "NotificationPreferences-Desktop": "デスクトップ通知を有効にする",
     "NotificationPreferences-Desktop-Help": "GitKraken がデスクトップ通知を送信することを許可します。",
@@ -3255,7 +3026,6 @@
     "NotificationPreferences-Marketing": "マーケティング通知を受け取る",
     "NotificationPreferences-Marketing-Help": "マーケティング関連の通知を受け取ります。",
     "NotificationPreferences-Marketing-Tooltip": "これらの通知は有料サブスクリプションでオフにできます。",
-
     "NotificationMenu-CantSync": "通知を同期できません。インターネット接続を確認するか、GitKraken Desktop を再読み込みしてください。",
     "NotificationMenu-Notifications": "通知",
     "NotificationMenu-FiltersAll": "すべて",
@@ -3268,7 +3038,6 @@
     "NotificationMenu-Read-Empty": "既読の通知はありません",
     "NotificationMenu-Unread-Empty": "未読の通知はありません",
     "NotificationMenu-WaitingForCloud": "通知の受信に通常より時間がかかっています。後でもう一度お試しください。",
-
     "NotificationUI-FeatureRequiresUpdate": "この機能には更新されたクライアントが必要です。",
     "NotificationUI-DateAtTime": "{0} @ {1}",
     "NotificationUI-MarkAsRead": "既読にする",
@@ -3279,7 +3048,6 @@
     "NotificationUI-TimeYesterday": "昨日",
     "NotificationUI-UpdateNotAvailable": "このアップデートは現在展開中で、まもなく利用可能になります。",
     "NotificationUI-UpdateNow": "今すぐアップデート",
-
     "Annotation-toggle-with": "{0}で切り替え",
     "Annotation-got-it": "了解",
     "OrganizationMember-Admin": "管理者",
@@ -3316,52 +3084,41 @@
     "OrganizationMember-InvitingUsersWillAddXSeatsToYSubSingular": "これらのユーザーを招待すると、GitKraken {0}サブスクリプションにシートが1つ追加されます。",
     "OrganizationMember-InvitingUsersWillAddXSeatsToYSubPlural": "これらのユーザーを招待すると、GitKraken {1}サブスクリプションにシートが{0}つ追加されます。",
     "OrganizationMember-ApprovalRequiredForCloudPatchInvite": "管理者の承認後、組織のルールに基づいてこれらのユーザーがCloud Patchにアクセスできるようになります。",
-
     "Organization-Members": "メンバー",
     "Organization-TeamMembers": "チームメンバー",
     "Organization-Teams": "チーム",
     "Organization-Settings": "設定",
     "Organization-SettingsSubtitle": "これらの設定はこの組織にのみ適用されます",
     "Organization-SwitchOrganization": "組織を切り替え",
-
     "Organization-DeleteTeam": "チームを削除",
     "Organization-DeleteTeamWarningFinal": "この操作は元に戻せません",
     "Organization-DeleteTeamNamePlaceholder": "チーム名",
     "Organization-DeleteTeamRequestAction": "確認のためチーム名 {0} を入力してください",
     "Organization-DeleteTeamWarningExplained": "この操作は元に戻せません。チーム {0} が完全に削除されます。メンバーはこのチームと共有されているWorkspaceへのアクセスを失う可能性があります。",
-
     "Organization-AddTeamTooltip": "新しいチームを作成",
     "Organization-CreateTeamModalButton": "チームを作成",
     "Organization-CreateTeamModalTitle": "チーム名",
     "Organization-CreateTeamModalPlaceholder": "チーム名を入力",
     "Organization-UpgradeToAddTeamsTooltip": "ProおよびトライアルアカウントはチームN{0}個までに制限されています。チームを追加するにはサブスクリプションをアップグレードしてください",
-
     "Organization-TeamNameError": "チーム名に使用できる文字は英数字、単一のハイフンまたは半角スペースのみです。ハイフンで始まったり終わったりすることはできません",
-
     "Organization-GenericErrorTitle": "エラーが発生しました",
     "Organization-PermissionErrorMessage": "この操作を実行する権限がなくなった可能性があります。",
     "Organization-ConflictErrorMessage": "この操作はすでに正常に完了しており、再度実行することはできません。",
-
     "Organization-ServerErrorTitle": "不明なエラーが発生しました",
     "Organization-ServerErrorMessage": "後でもう一度お試しください。",
-
     "Organization-InviteErrorTitle": "ユーザーの招待に失敗しました",
     "Organization-InviteErrorMessage": "学生はユーザーを追加または招待できません",
-
     "SuggestedOrganizations-AlertTitle": "まだ組織に参加していません",
     "SuggestedOrganizations-SeeRecommended": "おすすめの組織を見る",
-
     "JoinOrganizations-ModalTitle": "GitKrakenでチームのサブスクリプションに参加する",
     "JoinOrganizations-ModalDescription": "チームのサブスクリプションに参加して、mergeの競合を防ぎ、変更を視覚的に追跡し、issue、プル リクエスト、チケットを一か所で管理しましょう。",
     "JoinOrganizations-Join": "参加",
     "JoinOrganizations-Pending": "保留中",
     "JoinOrganizations-1Member": "メンバー1人",
     "JoinOrganizations-XMembers": "メンバー{0}人",
-
     "Organization-AutoSwitched-Title": "{0}に切り替えました",
     "Organization-AutoSwitched-Message": "有料組織に追加されました。GitKrakenは自動的に{0}に切り替えました。",
     "Organization-AutoSwitched-ViewOrganization": "組織を表示",
-
     "PrivateRepoOffer-ModalTitle": "期間限定オファー！",
     "PrivateRepoOffer-Description": "プライベートリポジトリにアクセスして、すべてのPro機能を解放 — 今ならお得な価格で。",
     "PrivateRepoOffer-PerMonth": "月額",
@@ -3371,14 +3128,11 @@
     "PrivateRepoOffer-Feature-AiCommitComposer": "AI搭載のCommit Composer",
     "PrivateRepoOffer-UpgradeButton": "PROにアップグレード",
     "PrivateRepoOffer-SavePercentOnYearly": "年間サブスクリプションで{0}%節約",
-
     "Team-AreYouSureDelete": "このチームを本当に削除しますか？",
     "Team-DeleteTeam": "チームを削除",
-
     "TeamSettings-Label": "チーム",
     "TeamSettings-DefaultTeamLabel": "すべてのリポジトリのデフォルトとして使用する",
     "TeamSettings-SelectTeam": "このリポジトリのチームを選択",
-
     "TeamMember-Add": "メンバーを追加",
     "TeamMember-AddMember": "メンバーを追加",
     "TeamMember-AddMembers": "メンバーを追加",
@@ -3387,7 +3141,6 @@
     "TeamMember-NoMembersFound": "メンバーが見つかりません",
     "TeamMember-SelectToAdd": "追加するメンバーを選択",
     "TeamMember-OptedOut": "{0}はWIPの共有をオプトアウトしています",
-
     "Trial-StartFreeGitKrakenTrial": "GitKrakenの無料トライアルを開始",
     "Trial-TrialEndedModalHeader": "GitKraken Desktopの使用を継続するプランを選択してください",
     "Trial-AiAccessTrialEndedModalHeader": "GitKraken AIと{0}を使用するにはアップグレードが必要です",
@@ -3441,7 +3194,6 @@
     "Trial-TrialStartedModal-WelcomeToAnEliteCrewOfDevelopers": "GitKrakenを使ってGitのワークフローを簡素化し、生産性を高め、チームと一緒に素晴らしいものを作っている優秀な開発者の仲間入りです。",
     "Trial-TrialStartedModal-InviteTeammateIfYouWantMoreDays": "{0}日間ご希望ですか？{1}するとGitKrakenをさらに活用できます",
     "Trial-TrialStartedModal-InviteATeammate": "チームメンバーを招待する",
-
     "TrialExtension-OfferTitle": "もう一度始めませんか？さらに {0} 日間ご利用いただけます",
     "TrialExtension-OfferBody1": "トライアル期間が終了しましたが、まだブランチもコミットも作成されていません。",
     "TrialExtension-OfferBody2": "始めの一歩が一番難しいものです - 今すぐ GitKraken Advanced をさらに {0} 日間ご利用いただけます。最初のブランチとコミットの作成方法をご案内します。",
@@ -3455,7 +3207,6 @@
     "TrialExtension-WatchNextVideo": "次の動画を見る",
     "TrialExtension-CloseButton": "始める",
     "TrialExtension-ResetFailed": "トライアルを延長できませんでした。後でもう一度お試しください。",
-
     "Error": "エラー",
     "Error-AddExternalSSHKeyToServiceFailed": "SSHキーの追加に失敗しました",
     "Error-AmendFailed": "amendに失敗しました",
@@ -3603,7 +3354,6 @@
     "Error-RestoreFilesFailed": "ファイルの復元に失敗しました",
     "Error-CannotRestoreSubmodules": "submoduleを復元できません",
     "Error-CannotRestoreSubmodulesMessage": "commitからのsubmoduleの復元はサポートされていません。通常のファイルのみを復元してください。",
-
     "Error-RepoAlreadyExists": "リポジトリはすでに存在します",
     "Error-RepoAlreadyExistsOnAccount": "このアカウントにはすでに同名のリポジトリが存在します",
     "Error-RepoDeleteFailed": "リポジトリの削除に失敗しました",
@@ -3642,9 +3392,7 @@
     "Error-FailedToSetCloudPatchVisibility": "Cloud Patchの公開設定の変更に失敗しました",
     "Error-FailedToAddUserToCloudPatch": "Cloud PatchへのユーザーのN追加に失敗しました",
     "Error-FailedToAddUsersToCloudPatch": "Cloud Patchへのユーザーの追加に失敗しました",
-
     "MarkdownLink-FileOutsideRepository": "GitKrakenはリポジトリ外のファイルにアクセスしようとしたため、このリンクを開くのをブロックしました。",
-
     "Error-FailedToRemoveUserFromCloudPatch": "Cloud Patchからのユーザーの削除に失敗しました",
     "Error-ReleaseNotesLoadFailed": "リリースノートの読み込みに失敗しました",
     "ErrorFallback-Message": "GitKraken Desktopで致命的なエラーが発生しました。バグレポートを無効にしていない場合、この問題は報告されています。無効にしている場合は、レポートの送信をご検討ください。",
@@ -3767,22 +3515,16 @@
     "ErrorMessage-GenerateCommitRebase-DiffDifferent": "commit生成に失敗しました：diffが以前のコードと一致しません。",
     "ErrorMessage-TooManyCommits": "commitが多すぎます",
     "ErrorMessage-ShallowNotSupported": "この機能はシャローリポジトリではサポートされていません",
-
     "ErrorMessage-FailedToAcquireLock": "共有設定のロックの取得に失敗しました。",
     "ErrorMessage-LockfileRemoved": "使用中に共有設定のロックファイルが削除されました。",
-
     "ErrorMessage-UnknownFailure": "不明な障害。",
-
     "ErrorMessage-BlobNotFound": "blobが見つかりません。bloblessクローンを使用しているリポジトリで、ファイルがまだfetchされていない場合に発生することがあります。",
     "ErrorMessage-PathBlockedByDirectory": "このパスには現在ディレクトリが存在します。リベースまたはマージによってファイル名とディレクトリ名の競合が発生した可能性があります。",
     "ErrorMessage-SparseCheckoutFileNotFound": "ファイルが見つかりません。スパースチェックアウトを使用しているリポジトリで発生することがあります。",
     "ErrorMessage-SparseCheckoutFilesNotFound": "{0}件のファイルが見つかりません。スパースチェックアウトを使用しているリポジトリで発生することがあります。",
-
     "File-SparseCheckoutOpenAsReadOnly": "スパースチェックアウトのため読み取り専用でファイルを開きました",
-
     "FileSavePrompt-Detail": "未保存の変更は破棄されます。",
     "FileSavePrompt-Message": "{0}の変更を保存しますか？",
-
     "CheckoutError-CloseDetailPanel": "チェックアウトするには、変更を保存してもう一度試してください。",
     "MergeError-CloseDetailPanel": "mergeするには、変更を保存してもう一度試してください。",
     "PullError-CloseDetailPanel": "pullするには、変更を保存してもう一度試してください。",
@@ -3796,27 +3538,22 @@
     "TryUndoError-CloseDetailPanel": "元に戻すには、変更を保存してもう一度試してください。",
     "TryRedoError-CloseDetailPanel": "やり直すには、変更を保存してもう一度試してください。",
     "Error-CloseDetailPanel": "変更を保存してもう一度試してください。",
-
     "Editor-OverwriteContentsOnDiskQuestion": "GitKraken外でファイルが変更されました。ファイルを上書きしますか？",
     "Editor-OverwriteContentsOnDiskOrDiscardQuestion": "GitKraken外でファイルが変更されました。変更を破棄しますか、それともファイルを上書きしますか？",
     "Editor-OverwriteContentsOnDisk": "保存して上書き",
     "Editor-DiscardChanges": "この変更を破棄",
-
     "ExternalEditor-WarnExcessiveRepositoriesToOpen": "GitKraken Desktopは{0}個のリポジトリを外部エディターで開きます。続行してよろしいですか？",
     "ExternalEditor-OpenRepositories": "リポジトリを開く",
     "ExternalEditor-BrowseForEditorPath": "使用するエディターの実行ファイルを選択",
-
     "SaveAndStageEditorChanges-Message": "stageする前に変更を保存しますか？それともディスクに保存済みの変更のみをstageしますか？",
     "SaveAndStageEditorChanges-SaveAndStage": "保存してstage",
     "SaveAndStageEditorChanges-StageSavedChangesOnly": "保存済みの変更のみをstage",
-
     "CreateFork-ForkSuccessfullyCreated": "{0}でforkの作成に成功しました",
     "CreateTrialAndInviteUsersError-Title": "トライアル組織の作成に失敗しました",
     "CreateTrialOrgAndInviteUsers-Successful": "トライアル組織の作成とユーザーへの招待が成功しました",
     "CreateTrialOrgAndInviteUsers-Error": "組織の作成とユーザーの招待に失敗しました",
     "CreateTrialOrgAndInviteUsers-AddOneUserStartTrial": "1人のユーザーを招待してトライアルを開始",
     "CreateTrialOrgAndInviteUsers-AddNUsersStartTrial": "{0}人のユーザーを招待してトライアルを開始",
-
     "TeamVisibility-LoadingTeamsPlaceholder": "チームを取得中...",
     "TeamVisibility-NoMatch": "一致なし",
     "TeamVisibility-NoTeamsMessage": "GitKrakenのチームはチームメンバーとのコラボレーションを効率化し、mergeの競合を事前に検出できます。{0}。",
@@ -3832,7 +3569,6 @@
     "TeamVisibility-UnregisteredUnavailableMessage": "GitKrakenのチームはチームメンバーとのコラボレーションを効率化し、mergeの競合を事前に検出できます。無料トライアルを開始してください。",
     "TeamVisibility-YourFileOnePotentialConflict": "潜在的な競合：{0}もこのファイルに変更があります",
     "TeamVisibility-YourFileMultiplePotentialConflicts": "潜在的な競合：複数のメンバーがこのファイルに変更を持っています",
-
     "IntegrationView-AddCommentSubmitLabel": "コメントを追加",
     "IntegrationView-AddCommentPlaceholder": "コメントを追加",
     "IntegrationView-AddDescriptionPlaceholder": "説明を追加",
@@ -3857,18 +3593,14 @@
     "IntegrationView-BranchLabelTooltipWithRemote": "クリックして表示。ダブルクリックでチェックアウト。",
     "IntegrationView-BranchLabelTooltipWithoutRemote": "ダブルクリックでチェックアウト。",
     "IntegrationView-CouldNotFindRepo": "リポジトリが見つかりませんでした",
-
     "IntegrationViewCommentMenu-QuoteReply": "引用して返信",
-
     "IntegrationViewError-AssigneesEditFailed": "担当者の編集に失敗しました",
     "IntegrationViewError-DescriptionEditFailed": "説明の更新に失敗しました",
     "IntegrationViewError-LabelsEditFailed": "ラベルの編集に失敗しました",
     "IntegrationViewError-MilestonesEditFailed": "マイルストーンの編集に失敗しました",
     "IntegrationViewError-ReviewersEditFailed": "レビュアーの編集に失敗しました",
     "IntegrationViewError-TitleEditFailed": "タイトルの更新に失敗しました",
-
     "IntegrationView-GitHubTriagePermissionMessage": "GitHubのAPIではトリアージユーザーによる編集は許可されていません。",
-
     "PullRequestView-AddCommitSummary": "commitのサマリーを追加",
     "PullRequestView-AddCommitDescription": "commitの説明を追加",
     "PullRequestView-And": "および",
@@ -3949,20 +3681,17 @@
     "PullRequestView-XCommented": "{0}がコメントしました",
     "PullRequestView-XPendingReviewComments": "{0}件の保留中コメント",
     "PullRequestView-XRequestedChanges": "{0}が変更をリクエスト",
-
     "PullRequestViewFilesError-CouldNotFindAncestorCommit": "このプル リクエストの共通祖先commitの検索に失敗しました。",
     "PullRequestViewFilesError-CouldNotFindBaseCommit": "このプル リクエストのベースcommitの検索に失敗しました。",
     "PullRequestViewFilesError-CouldNotFindHeadCommit": "このプル リクエストのheadcommitの検索に失敗しました。このリモートが非表示になっていないか確認するか、環境設定 > 全般でグラフに表示するcommit数を増やしてみてください。",
     "PullRequestViewFilesError-MissingShaToViewFileChanges": "このプル リクエストのSHAの検索に失敗しました。",
     "PullRequestViewFilesError-NoAncestorCommit": "このプル リクエストのheadとベースの間に共通commitを見つけられませんでした。",
-
     "PullRequestViewMergeabilitySection-Blocked": "mergeがブロックされています",
     "PullRequestViewMergeabilitySection-Conflicts": "このbranchには解決が必要な競合があります",
     "PullRequestViewMergeabilitySection-NoConflicts": "このbranchはベースbranchと競合していません",
     "PullRequestViewMergeabilitySection-NoPermission": "プル リクエストをmergeできるのは書き込みアクセス権を持つユーザーのみです。",
     "PullRequestViewMergeabilitySection-Draft": "このプル リクエストはまだ作業中です",
     "PullRequestViewMergeabilitySection-DraftSubText": "ドラフトプル リクエストはmergeできません。",
-
     "PullRequestViewMergeForm-ChooseEmail": "このmergeに関連付けるメールを選択",
     "PullRequestViewMergeForm-Merge": "マージ",
     "PullRequestViewMergeForm-MergeDetails": "このbranchのすべてのcommitがmerge commitによってベースbranchに追加されます。",
@@ -3995,10 +3724,8 @@
     "PullRequestViewError-ViewingFileChanges": "ファイルの変更表示に失敗しました。",
     "PullRequestViewError-MergingPullRequestUnverifiedEmail": "メール {0} は {1} で確認されていません。GitKrakenプロフィールで {1} の確認済みメールを使用するか、このメールを {1} アカウントに追加してください。",
     "PullRequestViewError-TryUsingDefaultEmail": "プライベートメールを使用している可能性があります。デフォルトのメールを試してください。",
-
     "PullRequestViewDisabled-AuthorCantApprove": "プル リクエストの作成者は自分のプル リクエストを承認できません。",
     "PullRequestViewDisabled-AuthorCantRequestChanges": "プル リクエストの作成者は自分のプル リクエストに変更をリクエストできません。",
-
     "Issues": "issue",
     "IssueTracker": "issue tracker",
     "IssueTracker-Card": "カード",
@@ -4038,10 +3765,8 @@
     "IssueTracker-SelectProjectToCreateFilter": "フィルターを作成するプロジェクトを選択",
     "IssueTracker-SelectRepoToCreateFilter": "フィルターを作成するリポジトリを選択",
     "IssueTracker-YesLabel": "はい",
-
     "IssueTrackerSearch-FilteredCards": "フィルターされたカードを検索",
     "IssueTrackerSearch-FilteredIssues": "フィルターされたissueを検索",
-
     "IssueTrackerCreateForm-BaseBranch": "ベースbranch",
     "IssueTrackerCreateForm-ListLabel": "リスト",
     "IssueTrackerCreateForm-StatusLabel": "ステータス",
@@ -4075,7 +3800,6 @@
     "IssueTrackerCreateForm-SuccessfullyCreatedIssue": "issueの作成に成功しました",
     "IssueTrackerCreateForm-SuccessfullyCreatedIssueOnJira": "Jiraでissueの作成に成功しました",
     "IssueTrackerCreateForm-OpenJiraIssueCreateLink": "Jiraでこのissueを作成",
-
     "IssueFilterError-GitHubField": "フィルターフィールド名が無効です：{0}",
     "IssueFilterError-GitHubAssignee": "担当者はユーザー名、\"none\"、または\"*\"である必要があります",
     "IssueFilterError-GitHubCreator": "作成者はユーザー名である必要があります",
@@ -4086,7 +3810,6 @@
     "IssueFilterError-GitHubSort": "ソートは\"created\"、\"updated\"、または\"comments\"である必要があります",
     "IssueFilterError-GitHubSortDirection": "ソート方向は\"asc\"または\"desc\"である必要があります",
     "IssueFilterError-GitHubState": "状態は\"open\"、\"closed\"、または\"all\"である必要があります",
-
     "IssueTrackerFilterForm-CreateGitLabFilter": "GitLabフィルターを作成",
     "IssueTrackerFilterForm-CreateIssueTrackerFilter": "issue trackerフィルターを作成",
     "IssueTrackerFilterForm-CreateJiraFilter": "Jiraフィルターを作成",
@@ -4125,7 +3848,6 @@
     "IssueTrackerFilterForm-GitHubSyntaxReferenceTitle": "GitHubフィルター構文",
     "IssueTrackerFilterForm-NamePlaceholder": "このフィルターの名前を入力",
     "IssueTrackerFilterForm-SubmitLabel": "フィルターを作成",
-
     "IssueTrackerFilterForm-AssigneeAnyLabel": "担当者（任意）：",
     "IssueTrackerFilterForm-AssigneeLabel": "担当者：",
     "IssueTrackerFilterForm-ChecklistLabel": "チェックリスト：",
@@ -4155,7 +3877,6 @@
     "IssueTrackerFilterForm-SortingLabel": "ソート：",
     "IssueTrackerFilterForm-DirectionLabel": "ソート方向：",
     "IssueTrackerFilterForm-StateLabel": "状態：",
-
     "IssueTrackerFilterForm-All": "all",
     "IssueTrackerFilterForm-Ascending": "asc",
     "IssueTrackerFilterForm-Asterisk": "*",
@@ -4178,7 +3899,7 @@
     "IssueTrackerFilterForm-Label": "label",
     "IssueTrackerFilterForm-Labels": "labels",
     "IssueTrackerFilterForm-LabelName": "label_name",
-    "IssueTrackerFilterForm-LabelSpaceName": "label name",
+    "IssueTrackerFilterForm-LabelSpaceName": "ラベル名",
     "IssueTrackerFilterForm-ListName": "list_name",
     "IssueTrackerFilterForm-Me": "me",
     "IssueTrackerFilterForm-Member": "member",
@@ -4196,12 +3917,9 @@
     "IssueTrackerFilterForm-StateName": "state_name",
     "IssueTrackerFilterForm-Updated": "updated",
     "IssueTrackerFilterForm-UserName": "user_name",
-
     "IssueTrackerFilterForm-FilterError": "フィルターエラー",
-
     "TrelloFilterForm-QueryWarning": "警告",
     "TrelloFilterForm-BoardWarningMessage": "結果はすでに選択したボードでフィルターされているため、\"board:\"引数は不要です。",
-
     "IssueTrackerDefaultFilter-AllCards": "すべてのカード",
     "IssueTrackerDefaultFilter-AllIssues": "すべてのissue",
     "IssueTrackerDefaultFilter-AllOpenIssues": "すべてのオープンissue",
@@ -4210,7 +3928,6 @@
     "IssueTrackerDefaultFilter-MyOpenIssues": "自分のオープンissue",
     "IssueTrackerDefaultFilter-UnassignedCards": "未割り当てのカード",
     "IssueTrackerDefaultFilter-UnassignedIssues": "未割り当てのissue",
-
     "IssueTrackerError-BadRequest": "不正なリクエスト構文",
     "IssueTrackerError-CapchaBlockingLogin": "キャプチャが認証をブロックしています。続行するにはアカウントにログインしてください。",
     "IssueTrackerError-CommentEditFailed": "コメントの更新に失敗しました",
@@ -4243,10 +3960,8 @@
     "IssueTrackerError-TaskItemEditFailed": "タスクアイテムの値の更新に失敗しました",
     "IssueTrackerError-TrelloTokenExpired": "Trelloトークンが期限切れです",
     "IssueTrackerError-TrelloRateLimit": "TrelloのAPIレート制限を超過しました",
-
     "IssueTrackerPreferences-ChangePreferencesHint": "このリポジトリのissue trackerを設定するには、環境設定 > issueに移動してください",
     "IssueTrackerPreferences-OpenPreferences": "環境設定を開く",
-
     "IssueTracker-Member": "メンバー",
     "IssueTracker-Members": "メンバー",
     "IssueTracker-UpgradeToCreateACardMessage": "カードを作成するにはGitKrakenをアップグレードしてください。",
@@ -4258,9 +3973,7 @@
     "IssueTracker-ViewOnlyPermissionCommentMessageCard": "このカードにコメントする権限がありません。",
     "IssueTracker-ViewOnlyPermissionCommentMessageIssue": "このissueにコメントする権限がありません。",
     "IssueTracker-UnsupportedJiraFieldMessage": "このタイプのissueはGitKrakenが現在サポートしていない以下のフィールドをJiraが必要とするため、作成できません：",
-
     "Cli-PtyStartError": "シェルプロセスの起動に失敗しました",
-
     "CLIPreferences": "アプリ内ターミナル",
     "CLIPreferences-AutocompleteOptions": "オートコンプリートオプション",
     "CLIPreferences-AutocompleteSuggestions": "オートコンプリートサジェストを有効にする",
@@ -4274,22 +3987,18 @@
     "CLIPreferences-TabBehavior-ENTER": "Enter",
     "CLIPreferences-TabBehavior-DEFAULT": "無視",
     "CLIPreferences-CursorStyle": "カーソルスタイル",
-    "CLIPreferences-CursorStyle-BLOCK": "ブロック" ,
-    "CLIPreferences-CursorStyle-UNDERLINE": "アンダーライン" ,
-    "CLIPreferences-CursorStyle-BAR": "バー" ,
+    "CLIPreferences-CursorStyle-BLOCK": "ブロック",
+    "CLIPreferences-CursorStyle-UNDERLINE": "アンダーライン",
+    "CLIPreferences-CursorStyle-BAR": "バー",
     "CLIPreferences-DefaultTerminal": "デフォルトのアプリ内ターミナル",
     "CLIPreferences-DimWhenUnfocused": "フォーカスが外れているときにターミナルを暗くする",
-
     "AddRepositoriesToWorkspace-Error": "リポジトリの追加エラー",
     "AddRepositoriesToWorkspace-SuccessSingular": "{1}に{0}個のリポジトリを正常に追加しました",
     "AddRepositoriesToWorkspace-SuccessPlural": "{1}に{0}個のリポジトリを正常に追加しました",
-
     "AddRepositoryToWorkspace-ErrorNoRemoteForLocal": "{0}のローカルリポジトリにリモートがありません",
     "AddRepositoryToWorkspace-Error": "Workspaceへのリポジトリの追加エラー",
-
     "AddRepositoriesToWorkspaceModal-Adding": "追加中...",
     "AddRepositoriesToWorkspaceModal-Title": "リポジトリを追加",
-
     "ShareWorkspaceModal-ShareWorkspace": "Workspaceを共有",
     "ShareWorkspaceModal-ShareThisWorkspaceWithYourTeam": "このWorkspaceをチームと共有する",
     "ShareWorkspaceModal-UnpopulatedOrgDescription1": "チームメンバーを組織に招待して、共有Cloud Workspaceでコラボレーションできるようにしましょう。",
@@ -4297,7 +4006,6 @@
     "ShareWorkspaceModal-AddUsers": "ユーザーを追加",
     "ShareWorkspaceModal-OrganizationName": "組織名",
     "ShareWorkspaceModal-OrganizationNameExample": "例：Sirius Cybernetics",
-
     "TerminalContextMenu-Copy": "コピー",
     "TerminalContextMenu-Paste": "貼り付け",
     "TerminalContextMenu-SelectAll": "すべて選択",
@@ -4308,7 +4016,6 @@
     "TerminalToolbar-HideTerminal": "ターミナルを非表示",
     "TerminalToolbar-KillTerminal": "ターミナルを終了",
     "TerminalToolbar-Minimize": "ターミナルを最小化",
-
     "Workspace": "Workspace",
     "Workspaces": "Workspace",
     "LocalWorkspace": "ローカルWorkspace",
@@ -4393,19 +4100,15 @@
     "Workspace-AddMemberSectionLabel": "組織メンバー",
     "Workspace-AddTeamSectionLabel": "組織チーム",
     "Workspace-ReposNotLoadedYet": "このWorkspaceはまだ読み込み中です。しばらくお待ちください...",
-
     "Cli-GeneratorFileStatusAddedFile": "追加されたファイル",
     "Cli-GeneratorFileStatusDeletedFile": "削除されたファイル",
     "Cli-GeneratorFileStatusModifiedFile": "変更されたファイル",
     "Cli-GeneratorFileStatusUntrackedFile": "未追跡のファイル",
     "Cli-GeneratorFileStatusAllChangesInFolder": "このフォルダ内のすべての変更",
     "CLI-Generators-FoundInRemote": "リモート '{0}' で見つかりました",
-
     "Cli-CdDescription": "ディレクトリを変更",
     "Cli-ParentDirectory": "親ディレクトリ",
-
     "Cli-LoadingMessage": "ターミナルを読み込み中",
-
     "Cli-NpmDescription": "Nodeパッケージマネージャー",
     "Cli-NpmWorkspaceDescription": "現在のプロジェクトの設定済みworkspaceのコンテキストでコマンドを実行できるようにする",
     "Cli-NpmWorkspacesDescription": "すべての設定済みworkspaceのコンテキストでコマンドを実行できるようにする",
@@ -4559,7 +4262,6 @@
     "Cli-NpmViewDescription": "レジストリ情報を表示します",
     "Cli-NpmViewJsonDescription": "出力をjson形式で表示します",
     "Cli-NpmWhoamiDescription": "npmのユーザー名を表示します",
-
     "Cli-CurrentDirectorySuggestion": "現在のディレクトリ",
     "Cli-GitAmendDescription": "新しいcommitを作成して現在のbranchの先端を置き換えます",
     "Cli-GitAmendNoEditDescription": "エディターを起動せずに選択したcommitメッセージを使用します",
@@ -4611,7 +4313,7 @@
     "Cli-GitRebaseReapplyCherryDescription": "アップストリームcommitのclean cherry-pickをすべて再適用します",
     "Cli-GitRebaseNoReapplyCherryDescription": "（デフォルト）すべてのclean cherry-picksのcommitは自動的に削除されます",
     "Cli-GitRebaseAllowEmptyMessageDescription": "空のメッセージを持つcommitのrebaseを許可します",
-    "Cli-GitRebaseSkipDescription": "commitをスキップします" ,
+    "Cli-GitRebaseSkipDescription": "commitをスキップします",
     "Cli-GitRebaseEditDescription": "インタラクティブなrebase中にTODOリストを編集します",
     "Cli-GitRebaseShowCurrentPatchDescription": "インタラクティブなrebase中に現在のパッチを表示します",
     "Cli-GitRebaseMergeDescription": "（デフォルト）アップストリーム側の名前変更を認識したrebaseを可能にします",
@@ -4650,7 +4352,7 @@
     "Cli-GitAddIgnoredDescription": "通常は無視されるファイルの追加を許可します",
     "Cli-GitAddInteractiveDescription": "作業ツリー内の変更をインタラクティブにインデックスに追加します",
     "Cli-GitAddDryRunDescription": "実際にファイルを追加せず、存在するか無視されるかを表示します",
-    "Cli-GitAddPatchDescription": "パッチのhunkをインタラクティブに選択してインデックスに追加します"	,
+    "Cli-GitAddPatchDescription": "パッチのhunkをインタラクティブに選択してインデックスに追加します",
     "Cli-GitStatusDescription": "作業ツリーの状態を表示します",
     "Cli-GitStatusVerboseDescription": "詳細に表示します",
     "Cli-GitStatusBranchDescription": "branch情報を表示します",
@@ -4660,7 +4362,7 @@
     "Cli-GitStatusNullDescription": "エントリをNULで終了します",
     "Cli-GitStatusUntrackedDescription": "追跡されていないファイルを表示します",
     "Cli-GitStatusUntrackedAllDescription": "（デフォルト）",
-    "Cli-GitStatusignoredDescription": "無視されたファイルを表示します" ,
+    "Cli-GitStatusignoredDescription": "無視されたファイルを表示します",
     "Cli-GitStatusignoredTraditionalDescription": "（デフォルト）",
     "Cli-GitStatusNoRenamesDescription": "名前変更を検出しません",
     "Cli-GitPushDescription": "リモートのrefsを更新します",
@@ -4869,7 +4571,7 @@
     "Cli-GitMoveDescription": "ファイル、ディレクトリ、またはシンボリックリンクを移動または名前変更します",
     "Cli-GitRemoveDescription": "ワーキングツリーおよびインデックスからファイルを削除します",
     "Cli-GitRemoveHyphenDescription": "コマンドラインオプションとファイルリストを分離するために使用されます",
-    "Cli-GitRemoveCachedDescription": "インデックスからのみ削除します" ,
+    "Cli-GitRemoveCachedDescription": "インデックスからのみ削除します",
     "Cli-GitRemoveForceDescription": "最新状態チェックを上書きします",
     "Cli-GitRemoveRecursiveDescription": "再帰的な削除を許可します",
     "Cli-GitGrepDescription": "パターンに一致する行を表示します",
@@ -4880,7 +4582,7 @@
     "Cli-GitBranchDeleteDDescription": "branchを削除します（マージされていない場合も含む）",
     "Cli-GitBranchRenameDescription": "現在のbranchとそのreflogを移動/名前変更します",
     "Cli-GitBranchMoveDescription": "ターゲットが存在する場合でも、現在のbranchを移動/名前変更します",
-    "Cli-GitBranchcDescription": "branchとそのreflogをコピーします" ,
+    "Cli-GitBranchcDescription": "branchとそのreflogをコピーします",
     "Cli-GitBranchCDescription": "ターゲットが存在する場合でも、branchをコピーします",
     "Cli-GitBranchListDescription": "branch名を一覧表示します",
     "Cli-GitBranchCreateReflogDescription": "branchのreflogを作成します",
@@ -4896,8 +4598,8 @@
     "Cli-GitCheckoutDescription": "branchを切り替えるか、ワーキングツリーファイルを復元します",
     "Cli-GitCheckoutbDescription": "新しいブランチを作成してチェックアウトします",
     "Cli-GitCheckoutBDescription": "ブランチを作成/リセットしてチェックアウトします",
-    "Cli-GitCheckoutlDescription": "新しいbranchのreflogを作成します" ,
-    "Cli-GitCheckoutDetachDescription": "指定したcommitでHEADをデタッチします" ,
+    "Cli-GitCheckoutlDescription": "新しいbranchのreflogを作成します",
+    "Cli-GitCheckoutDetachDescription": "指定したcommitでHEADをデタッチします",
     "Cli-GitCheckoutTrackDescription": "新しいbranchのアップストリーム情報を設定します",
     "Cli-GitCheckoutOrphanDescription": "親のない新しいbranch",
     "Cli-GitCheckoutOursDescription": "マージされていないファイルに対して自分のバージョンをチェックアウトします",
@@ -5014,7 +4716,6 @@
     "Cli-GitFlowReleaseBranchPushDescription": "完了後にoriginにpushします",
     "Cli-GitFlowReleaseBranchTagDescription": "指定したtagを使用します",
     "Cli-GitFlowReleaseSquashDescription": "merge中にリリースをsquashします",
-
     "Cli-PackageSagasWorkspaces": "ワークスペース",
     "Cli-YarnDescription": "パッケージを管理してスクリプトを実行します",
     "Cli-YarnDisablePNPDescription": "Plug'n'Playインストールを無効にします",
@@ -5175,11 +4876,9 @@
     "Cli-YarnWorkspacesDescription": "ワークスペースに関する情報を表示します",
     "Cli-YarnWorkspacesInfoDescription": "現在のプロジェクトのワークスペース依存関係ツリーを表示します",
     "Cli-YarnWorkspacesRunDescription": "各ワークスペースで選択したyarnコマンドを実行します",
-
     "GitInfo-AheadBehind": "{0} commits 先行、{1} commits 遅れています",
     "GitInfo-Ahead": "{0} commits 先行しています",
     "GitInfo-Behind": "{0} commits 遅れています",
-
     "WorkspaceRepositories-NoLocalPath": "お使いのマシン上でこのリポジトリを見つけられません",
     "WorkspaceRepositories-OpenRepo": "リポジトリを開く",
     "WorkspaceRepositories-SelectedReposSummary": "{0} 個のリポジトリが選択されています",
@@ -5189,15 +4888,12 @@
     "WorkspaceRepositories-ErrorOpeningRepo": "リポジトリを開く際にエラーが発生しました",
     "WorkspaceRepositories-RepoMaybeDeleted": "リポジトリに到達できません。削除された可能性があります",
     "WorkspaceRepositories-RepoMustBeClonedToFavorite": "お気に入りに登録するにはリポジトリをcloneする必要があります",
-
     "WorkspacesTab-Loading": "読み込み中",
     "WorkspacesTab-LoadingWorkspace": "ワークスペース...",
     "WorkspacesTab-LoadingWorkspaces": "ワークスペース...",
     "WorkspacesTab-NewWorkspace": "新しいワークスペース",
-
     "SingleWorkspaceTab-AddRepositories": "リポジトリを追加",
     "SingleWorkspaceTab-NoRepositoryReadMe": "このリポジトリにはREADME.mdがありません",
-
     "AddEditWorkspace-ProjectSync": "単一のAzureプロジェクトと同期",
     "AddEditWorkspace-ProjectSyncDescription": "選択したプロジェクトのすべてのリポジトリを追加・同期します",
     "AddEditWorkspace-Direct": "Azureリポジトリを手動で選択",
@@ -5252,7 +4948,6 @@
     "AddEditWorkspace-Repos": "{0}個のリポジトリ",
     "AddEditWorkspace-NoShareWarning": "このワークスペースは誰とも共有されません。オーナーと管理者のみがこのワークスペースを閲覧できます。",
     "AddEditWorkspace-AddRemoveMembersWarning": "このワークスペースの他のメンバーを追加または削除する権限がありません。",
-
     "WorkspaceError-AddRepositoriesTitle": "リポジトリの追加に失敗しました",
     "WorkspaceError-AddRepositoryToTitle": "ワークスペースへのリポジトリ追加に失敗しました",
     "WorkspaceError-AddRepositoryMessage": "次のリポジトリをワークスペースに追加できませんでした：{0}",
@@ -5268,7 +4963,6 @@
     "WorkspaceError-WorkspaceNotFound": "ワークスペースが見つかりません",
     "WorkspaceError-RepoRenamedOrDeleted": "リポジトリURLの読み込みに失敗しました。リポジトリが削除または名前変更された可能性があります",
     "WorkspaceError-MultiSelectIncludesWorkspace": "VS Codeワークスペースを1つのみ選択するか、1つ以上のシステムディレクトリを選択してください。",
-
     "DeleteWorkspace-Deleting": "削除中...",
     "DeleteWorkspace-Delete": "ワークスペースを削除",
     "DeleteWorkspace-Error": "ワークスペースの削除に失敗しました",
@@ -5280,11 +4974,9 @@
     "DeleteWorkspace-WarningExplained": "この操作は元に戻せません。{0}ワークスペースが完全に削除されます",
     "DeleteWorkspace-WarningExplainedCannotBeUndone": "この操作は元に戻せません。{0}ワークスペースが組織から完全に削除され、すべてのメンバーがアクセスできなくなります",
     "DeleteWorkspace-WarningFinal": "この操作は元に戻せません",
-
     "WorkspaceSummarySection-Edit": "ワークスペースを編集",
     "WorkspaceSummarySection-Delete": "ワークスペースを削除",
     "WorkspaceSummarySection-LeaveWorkspace": "ワークスペースから退出",
-
     "WorkspacePullRequestSection-RepoHeader": "リポジトリ",
     "WorkspacePullRequestSection-TitleHeader": "タイトル",
     "WorkspacePullRequestSection-AuthorHeader": "作成者",
@@ -5303,7 +4995,6 @@
     "WorkspacePullRequestSection-LinesAddedRemoved": "追加/削除行数",
     "WorkspacePullRequestSection-Complexity": "複雑度",
     "WorkspacePullRequestSection-ComplexityTooltip": "プレビュー：複雑度は現在、変更行数・変更ファイル数・プル リクエスト内のcommit数に基づいており、リスト内の他のプル リクエストと相対的に比較されます。",
-
     "WorkspaceIssuesSection-MyIssues": "自分のイシュー",
     "WorkspaceIssuesSection-RepoHeader": "リポジトリ",
     "WorkspaceIssuesSection-TitleHeader": "タイトル",
@@ -5313,14 +5004,9 @@
     "WorkspaceIssuesSection-CreateBranch": "branchを作成",
     "WorkspaceIssuesSection-Open": "開く",
     "WorkspaceIssuesSection-OpenIssuePanel": "イシューパネルを開く",
-
     "WorkspaceOverview-LastUpdated": "最終更新",
-
-
-
     "RemoveRepositories-Error": "{0}からのリポジトリ削除に失敗しました",
     "RemoveRepositories-Success": "{1}から{0}個のリポジトリを削除しました",
-
     "InvalidSSLCertificate-Title": "無効なSSL証明書",
     "InvalidSSLCertificate-Advanced": "詳細",
     "InvalidSSLCertificate-AdvancedMessage": "攻撃者がこのインテグレーションを通じて情報を盗もうとしている可能性があります。無効なSSL証明書を使用して続行することは安全ではありません。このインテグレーションを無効にし、システム管理者に連絡することをお勧めします。",
@@ -5335,7 +5021,6 @@
     "InvalidSSLCertificate-PleaseContactYourAdministrator": "このホスト型インテグレーションの証明書を修正するには、システム管理者にお問い合わせください。{0}をご参照ください。",
     "InvalidSSLCertificate-ReconnectRequired": "再起動後にインテグレーションへの再接続が必要です。",
     "InvalidSSLCertificate-RestartIfResolved": "SSL証明書を修正した後、GitKraken Desktopを再起動してください。",
-
     "Theme-ApplicationFailedTitle": "{0}テーマのエラー",
     "Theme-ApplicationFailedMessage": "テーマシステムが{0}の適用に失敗しました。詳細はアプリケーションログをご確認ください",
     "Theme-CircularReferenceAtKey": "テーマにキー{0}の循環参照があります",
@@ -5344,7 +5029,6 @@
     "Theme-CustomThemeDeprecationNoticeMessage1": "カスタムテーマはUIをモダナイズしてパフォーマンスと保守性を向上させるため、バージョン11.8.0以降サポートされなくなりました。",
     "Theme-CustomThemeDeprecationNoticeMessage2": "モダナイズが完了次第、カスタムテーマのサポートを復元する予定です。",
     "Theme-CustomThemeDeprecationNoticeOpenPreferences": "設定を開く",
-
     "Time-NY": "{0}年",
     "Time-NMonth": "{0}ヶ月",
     "Time-NW": "{0}週",
@@ -5356,13 +5040,11 @@
     "Time-NMinutesAgo": "{0}分前",
     "Time-NS": "{0}秒",
     "Time-LessThan1MinuteAgo": "1分未満前",
-
     "WSL-DistroCommandErrorToastTitle": "{0}でコマンドが失敗しました",
     "WSL-HostCommandErrorToastTitle": "Windowsでコマンドが失敗しました",
     "WSL-OAuthForwardFailed-InvalidDistroName": "サインインを完了できませんでした: WSL ディストリビューション名が無効です。WSL の GitKraken Desktop から再度サインインしてください。",
     "WSL-OAuthForwardFailed-NotInstalled": "サインインを完了できませんでした: WSL ディストリビューション {0} に GitKraken Desktop がインストールされていません。WSL の GitKraken Desktop から再度サインインしてください。",
     "WSL-OAuthForwardFailed-LaunchError": "サインインを完了できませんでした: WSL ディストリビューション {0} で GitKraken Desktop の起動に失敗しました。WSL の GitKraken Desktop から再度サインインしてください。",
-
     "OpenRepoExternallyToast-WindowsTitle": "WSL上に保存されたリポジトリをWindowsのGitKraken Desktopから操作することは推奨されません。ヘルプセンターをご覧ください。",
     "OpenRepoExternallyToast-WSLTitle": "Windows上に保存されたリポジトリをWSLのGitKraken Desktopから操作することは推奨されません。ヘルプセンターをご覧ください。",
     "OpenRepoExternallyToast-OpenSupportDocs": "ヘルプセンターを開く",
@@ -5372,10 +5054,8 @@
     "OpenRepoExternallyToast-WSLGKNotInstalled": "{0}にGitKrakenが見つかりません",
     "OpenRepoExternallyToast-WindowsGKNotInstalled": "WindowsにGitKrakenが見つかりません",
     "OpenRepoExternallyToast-OpenAnyways": "リポジトリをそのまま開く",
-
     "AiCommitMessageGeneration-NoStagedChanges": "ステージされた変更がありません",
     "AiCommitMessageGeneration-NoStagedChangesDescription": "アップロードしたい変更をステージして再試行してください。",
-
     "Ai-ResolveConflict": "AIで自動解決",
     "Ai-ResolveConflictConfidence": "信頼度",
     "Ai-ResolveConflictTooltip": "AIでmerge競合を自動解決する",
@@ -5461,19 +5141,17 @@
     "Ai-ModelCreditMultiplierTooltip": "ベースラインモデルの {0} 倍のクレジットを使用",
     "Ai-ProviderNotFound": "プロバイダー{0}が見つかりません",
     "Ai-NotLoggedIn": "GitKraken AIを使用するにはログインが必要です",
-
     "Git-RemoteMessage-Title": "リモート: {0}",
     "Git-Error-Title": "Gitエラー",
     "Git-TryRemoveUserFromRemoteUrl-Title": "リモートURLにユーザーが検出されました",
     "Git-TryRemoveUserFromRemoteUrl": "リモート{0}のURLにユーザーが含まれており、GitKraken DesktopのGitインテグレーションに問題を引き起こす可能性があります。URLからユーザーを削除することをお勧めします。",
     "Git-TryRemoveUserFromRemoteUrlOpenRemote": "リモートを開く",
     "Git-Invalid-Credentials": "認証情報が無効です",
-
     "FocusView-Title": "Launchpad",
     "FocusView-ActionsWipOpenRemote": "リモートを開く: {0}",
     "FocusView-ActionsWipOpenInTab": "リポジトリを表示",
     "FocusView-WipBadge": "WIP",
-    "FocusView-IssueBadge": "ISSUE",
+    "FocusView-IssueBadge": "イシュー",
     "FocusView-NoBuildStatusAvailable": "ビルドステータス情報がありません",
     "FocusView-NoUserReviewStatusAvailable": "レビュー情報がありません",
     "FocusView-StatusColumnTitle": "ステータス",
@@ -5501,9 +5179,9 @@
     "FocusView-MyPullRequests": "自分のプル リクエスト",
     "FocusView-MyIssues": "自分のIssue",
     "FocusView-MyCards": "自分のカード",
-    "FocusView-MergeRequests": "Merge Requests",
+    "FocusView-MergeRequests": "マージリクエスト",
     "FocusView-PullRequests": "プル リクエスト",
-    "FocusView-Issues": "Issues",
+    "FocusView-Issues": "イシュー",
     "FocusView-Cards": "カード",
     "FocusView-NoItemsAllHeader": "アイテムがありません",
     "FocusView-NoItemsPRHeader": "プル リクエストがありません",
@@ -5530,6 +5208,11 @@
     "FocusView-PullRequestClosedSuccessfully": "プル リクエストが正常に閉じられました",
     "FocusView-UpdateStatus": "ステータスを更新",
     "FocusView-MarkAsClosed": "クローズ済みとしてマーク",
+    "FocusView-StartAgentSession": "エージェントセッションを開始",
+    "FocusView-SendIssueContext": "イシューのコンテキストを送信してすぐに開始",
+    "FocusView-StartAgentSessionFailed": "エージェントセッションを開始できませんでした",
+    "FocusView-IssueFetchFailed": "イシューの詳細を読み込めませんでした。もう一度お試しください。",
+    "FocusView-BaseBranchOptionsFetchFailed": "ベースブランチのオプションを読み込めませんでした。もう一度お試しください。",
     "FocusView-OpenCodeSuggestion": "コード提案を開く",
     "FocusView-ReviewPullRequest": "プル リクエストをレビューする",
     "FocusView-CreateCloudPatch": "クラウドパッチを作成",
@@ -5617,7 +5300,6 @@
     "FocusView-PressEnterToConfirm": "Enterキーを押して確認",
     "FocusView-ViewSavedSuccessfully": "ビューが正常に保存されました",
     "FocusView-ThisViewHasUnsavedChanges": "このビューには未保存の変更があります",
-
     "FocusViewBuildStatus-ActionRequired": "アクションが必要です",
     "FocusViewBuildStatus-Cancelled": "一部のチェックがキャンセルされました",
     "FocusViewBuildStatus-Failed": "一部のチェックが失敗しました",
@@ -5627,7 +5309,6 @@
     "FocusViewBuildStatus-Skipped": "一部のチェックがスキップされました",
     "FocusViewBuildStatus-Success": "すべてのチェックが合格しました",
     "FocusViewBuildStatus-Warning": "一部のチェックに警告があります",
-
     "FocusViewItemActionModal-XRequestedChanges": "{0}件の変更リクエスト",
     "FocusViewItemActionModal-ResolveChangesPriorToMerge": "merge前に変更を解決することをお勧めします",
     "FocusViewItemActionModal-NoRequestedChanges": "変更リクエストなし",
@@ -5669,7 +5350,6 @@
     "FocusViewItemActionModal-RebaseThenMergeDescription": "このbranchのcommitがrebaseされてからベースbranchに追加されます",
     "FocusViewItemActionModal-FastForwardHeader": "ファストフォワード",
     "FocusViewItemActionModal-FastForwardDescription": "ベースbranchのヘッドがこのbranchの先頭に移動されます",
-
     "FocusViewStatusBar-IsReadyToMerge": "{0}/{1}#{2}はmergeの準備ができています",
     "FocusViewStatusBar-HasNoReviewers": "{0}/{1}#{2}にはレビュアーが割り当てられていません",
     "FocusViewStatusBar-IsFailingCI": "{0}/{1}#{2}はCIに失敗しています",
@@ -5701,7 +5381,6 @@
     "FocusViewStatusBar-PRWaitingOnReview": "PRはレビュー待ちです",
     "FocusViewStatusBar-PRInDraft": "PRはドラフト中です",
     "FocusViewStatusBar-RepoLabel": "{0}/{1} #{2}",
-
     "FocusViewError-FailedToMergePullRequest": "プル リクエストのmergeに失敗しました",
     "FocusViewError-FailedToClosePullRequest": "プル リクエストのクローズに失敗しました",
     "FocusViewError-FailedToUpdateIssueStatus": "イシューステータスの更新に失敗しました",
@@ -5712,16 +5391,16 @@
     "FocusViewError-FailedToDeleteCloudTabSettings": "クラウドタブ設定の削除に失敗しました",
     "FocusViewError-FailedToCreateCustomView": "カスタムビューの作成に失敗しました",
     "FocusViewError-FailedToUpdateCustomView": "カスタムビューの更新に失敗しました",
-
     "FocusViewLeavingPreviewNotice-Header": "Launchpad Teamsがプレビューから卒業します！",
     "FocusViewLeavingPreviewNotice-Body": "この機能は間もなくAdvancedプランでのみご利用いただけます。",
-
     "FocusViewTeamViewUpsell-Header": "チームモードでチームの力を解放しよう",
     "FocusViewTeamViewUpsell-Body": "チームモードでは、ワークスペース内のリポジトリのすべてのプル リクエストとイシューが表示され、チームのコーディング活動を俯瞰できます。",
     "FocusViewTeamViewUpsell-SubHeader": "Team Launchpadを今すぐ使い始めましょう",
-
+    "FocusViewSignInGate-Header": "Launchpad を使用するにはサインイン",
+    "FocusViewSignInGate-Body": "Launchpad は、すべてのリポジトリからのプルリクエスト・イシュー・進行中の作業を1つのビューにまとめます。これにより、次に何に注目すべきかを常に把握できます。",
+    "FocusViewSignInGate-SubHeader": "無料アカウントを作成して Launchpad を使い始める",
+    "FocusViewSignInGate-ImageAlt": "Launchpad プレビュー",
     "MultiBranchDisplay-CheckoutBranch": "クリックしてブランチをチェックアウト",
-
     "StatusBar-Cancellation": "サブスクリプションはキャンセル予定です。{1}。",
     "StatusBar-CancellationOnDate": "サブスクリプションは{0}にキャンセル予定です。{1}。",
     "StatusBar-CardExpired": "登録されているカードの有効期限が切れています。{0}。",
@@ -5732,10 +5411,8 @@
     "StatusBar-UpdatePaymentMethodToAvoidFailure": "更新時に失敗しないよう支払い方法を更新してください",
     "StatusBar-UpdatePaymentUser": "GitKrakenの更新に失敗しました！管理者に支払い情報の更新を依頼してください。",
     "StatusBar-UpdateYourSubscriptionToRenew": "更新するにはサブスクリプションを更新してください",
-
     "GKDotDev-OpeningLinkInBrowser": "ブラウザでリンクを開いています",
     "GKDotDev-CopyLink": "リンクをコピー",
-
     "worktree": "ワークツリー",
     "Worktree-Create": "ワークツリーを作成",
     "Worktree-SectionTitle": "ワークツリー",
@@ -5748,6 +5425,7 @@
     "Worktree-FormPrune": "ワークツリーを整理",
     "Worktree-FormRemove": "このワークツリーを削除",
     "Worktree-FormRemoveAndDeleteBranch": "ワークツリーとブランチを削除",
+    "Worktree-FormRemoveAndDeleteBranchAndRemote": "ワークツリーとブランチ (ローカル && リモート) を削除",
     "Worktree-FormUnlock": "このワークツリーのロックを解除",
     "Worktree-FormWorkdir": "作業ディレクトリ",
     "Worktree-FormWorktreeBranch": "作成するワークツリーのブランチ",
@@ -5765,7 +5443,6 @@
     "Worktree-DetachedHead": "切り離された HEAD",
     "Worktree-Refresh-WIPs": "WIPを更新",
     "Worktree-WipTooltipNoAgent": "関連付けられたエージェントセッションはありません",
-
     "AgentWorkflow-BranchNamePlaceholder": "ブランチ名",
     "AgentWorkflow-CollapseNewSession": "新しいエージェントセッションを折りたたむ",
     "AgentWorkflow-CustomizeNewSession": "新しいエージェントセッションをカスタマイズ",
@@ -5798,7 +5475,6 @@
     "AgentWorkflow-FocusFailedTitle": "エージェントアプリケーションを前面に表示できませんでした",
     "AgentWorkflow-FocusFailedContent": "GitKraken はエージェントのウィンドウを最前面に表示できませんでした。代わりに GitKraken ターミナルでこのセッションを続行できます。",
     "AgentWorkflow-LaunchSessionInTerminal": "ターミナルで起動",
-
     "SatisfactionSurvey-Header": "この製品体験にどの程度満足していますか？",
     "SatisfactionSurvey-SubHeader": "あなたのフィードバックがGitKrakenの改善に役立ちます",
     "SatisfactionSurvey-NotSatisfied": "満足していない",
@@ -5812,11 +5488,9 @@
     "SatisfactionSurvey-ReferralHeader": "フィードバックありがとうございます！",
     "SatisfactionSurvey-ReferralDescription": "GitKrakenを友達と共有しましょう。友達は割引を受け、あなたは報酬を獲得できます。",
     "SatisfactionSurvey-GetReferralCode": "紹介リンクを取得",
-
     "MultipleIntegrationsAlert-Title": "別の{0}アカウントを接続しますか？",
     "MultipleIntegrationsAlert-Description": "{0}を作成することで、異なるインテグレーションを追加して切り替えることができます。",
     "MultipleIntegrationsAlert-NewProfileLinkText": "新しいプロファイル",
-
     "Open-Rust-Socket-Bridge-Support-Page": "ヘルプセンターを訪問"
   }
 }
